@@ -39,6 +39,12 @@ import ContactChat from "./contact/contact-chat";
 import ContactForm from "./contact/contact-form";
 import Addresses from "./contact/addresses";
 
+// Career Sections
+import DiscoverCareer from "./career/discover-career";
+
+// Policy Sections
+import PolicyAustrailia from "./about/policy/policy-austrailia";
+
 export {
   Header,
   Footer,
@@ -66,4 +72,6 @@ export {
   ContactChat,
   ContactForm,
   Addresses,
+  DiscoverCareer,
+  PolicyAustrailia,
 }
