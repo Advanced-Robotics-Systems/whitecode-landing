@@ -1,5 +1,5 @@
 import { ICONS } from "@/utils/icons";
-import { title } from "process";
+import { PrivacyPolicyData } from "@/utils/types";
 
 // Navbar Links
 export const navLinks = [
@@ -419,13 +419,12 @@ export const careerData = [
   },
 ];
 
-export const privacyPolicy = {
+export const privacyPolicy: PrivacyPolicyData = {
   title: "Privacy Policy (Australia)",
 
   sections: [
     {
       title: "Privacy Policy",
-      lisr: {},
       introduction: [
         "Project WhiteCode is committed to the protection of your personal information. We understand our relationship with you is based on trust. We care about giving you the best private web browsing experience. We treat your personal data confidentially and in accordance with the data protection legislation and this Privacy Policy.",
         "The use of our website is usually possible without providing personal information. Where any personal data (such as name, address or email address) is provided, this is as far as possible on a voluntary basis. These data are not without your express consent used for any other purpose.",
@@ -506,7 +505,6 @@ export const privacyPolicy = {
     },
     {
       title: "Security",
-      lisr: {},
       introduction: [
         "We understand the importance of your personal information and have appropriate procedures in place to safeguard and secure the information we collect to prevent unauthorised access or disclosure, maintain data accuracy and ensure the appropriate use of information. However, we point out that data transmission over the Internet (for example, when communicating via email) can have security gaps. A complete protection of data against unauthorised access by third parties is impossible.",
         "We take website and credit card security extremely seriously and always endeavour to provide a secure, safe platform from which to conduct online transactions. To ensure you are accessing a secure server, look for the unbroken key or closed lock symbol located either at the bottom left or top right of your browser window. If it appears, then SSL is active. You can double-check by looking at the URL. If SSL is active, then the first characters of the URL will read 'https' rather than just 'http'. It is important for you to protect against unauthorised access to your password and your computer.",
@@ -532,7 +530,6 @@ export const privacyPolicy = {
     },
     {
       title: "Newsletter Data",
-      lisr: {},
       introduction: [
         "If you want to receive the newsletter offered on the website, we need your email address and information that allow us to verify that you are the owner of the e-mail address and agree to receive the newsletter. Further data is not collected. We use this information only to send the requested information.",
         "The consent to the storage of the data, the e-mail address as well as their use for sending the newsletter can be revoked at any time, for example through the 'unsubscribe' link in the newsletter.",
@@ -541,28 +538,24 @@ export const privacyPolicy = {
     },
     {
       title: "Wishlist Data",
-      lisr: {},
       introduction: [
         "By filling in your email address we can provide an extended functionality of your personal Wishlist and save it for the next time log in at our website. Further data is not collected as we use your email only to be able to store your Wishlist.",
       ],
     },
     {
       title: "Information, Erasure, Blocking",
-      lisr: {},
       introduction: [
         "You always have the right to free information about your stored personal data, its origin and recipients and the purpose of the data processing and the right to correct, block or delete this data. For this purpose, as well as other questions relating to personal data you can contact at us any time at the address stated in the imprint.",
       ],
     },
     {
       title: "Contact Form",
-      lisr: {},
       introduction: [
         "If you send us enquiries via contact requests, your data out of the request form (including contact information you provide there) will be stored for the purpose of processing the request only and for the purpose of follow-up questions. This data will not be disclosed without your consent.",
       ],
     },
     {
       title: "Rejection of Promotional Emails",
-      lisr: {},
       introduction: [
         "The use of contact date published under the obligatory imprint information for sending unsolicited advertisements and information materials is hereby rejected. The operators of the sites expressly legal steps in case of sending unsolicited promotional information, including spam emails.",
       ],
@@ -585,7 +578,6 @@ export const privacyPolicy = {
     },
     {
       title: "Privacy Statement for the Use of Google Analytics",
-      lisr: {},
       introduction: [
         "This website uses functions of the web analytics service Google Analytics. Provider is Google Inc. 1600 Amphitheatre Parkway Mountain View, CA 94043.",
         "Google Analytics uses 'Cookies'. These are text files that are stored on your computer and enable analysis of your use of the website. The information generated by the cookie about your use of this website are usually transferred to a Google server in the USA and stored there.",
@@ -596,7 +588,6 @@ export const privacyPolicy = {
     },
     {
       title: "Privacy Statement for the Use of Facebook",
-      lisr: {},
       introduction: [
         "On our pages are incorporated plugins of the social network Facebook, provider Facebook Inc. 1 Hacker Way, Menlo Park, California 94025, USA.",
         "The Facebook plugin you recognise by the Facebook logo or the 'Like Button' ('Like') on our side. An overview of the Facebook plugins can be foundat 'https://developers.facebook.com/docs/plugins'",
@@ -606,7 +597,6 @@ export const privacyPolicy = {
     },
     {
       title: "Privacy Policy for use of Instagram",
-      lisr: {},
       introduction: [
         "Our site uses functions of the service Instagram. These functions are offered by Instagram Inc. 1601 Willow Road, Menlo Park, CA 94025, USA.",
         "When you are logged into your Instagram account (you can by clicking on the Instagram buttons) then it is possible that content of our website be linked to your Instagram profile. This allows Instagram to assign your visit to our pages to your user account. We point out that we as providers of the sites possess no knowledge of the content of the transmitted data and their use through Instagram.For more information, please see the privacy policy of Instagram at 'https://instagram.com/about/legal/privacy'",
@@ -614,7 +604,6 @@ export const privacyPolicy = {
     },
     {
       title: "Privacy Policy for use of Instagram",
-      lisr: {},
       introduction: [
         "Our site uses functions of the network LinkedIn. Provider is the LinkedIn Corporation 2029 Stierlin Court, Mountain View, CA 94043, USA.",
         "Every time you visit a page containing functions of LinkedIn, a connection to servers of LinkedIn is established. LinkedIn is informed that you have visited our website with your IP address. If you click the 'Recommend' button of LinkedIn and are logged into your account with LinkedIn, then it is possible for LinkedIn to assign your visit to our website to your LinkedIn user account. We point out that we as providers of the sites have no knowledge of the content of the transmitted data and their use by LinkedIn. More information can be found in the Privacy Policy LinkedIn at 'https://www.linkedin.com/legal/privacy-policy'",
