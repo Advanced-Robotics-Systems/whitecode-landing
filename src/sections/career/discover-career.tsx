@@ -1,8 +1,5 @@
-
 const DiscoverCareer = () => {
-  return (
-    <div>DiscoverCareer</div>
-  )
-}
+  return <div>DiscoverCareer</div>;
+};
 
-export default DiscoverCareer
+export default DiscoverCareer;
