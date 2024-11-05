@@ -4,7 +4,7 @@ import GradientBackground from "@/assets/images/purple-gradient.png";
 import { ICONS } from "@/utils/icons";
 import { Button } from "@nextui-org/react";
 import { careerData } from "@/data";
-import CareerCard from "@/components/career-card/career-card";
+import { CareerCard } from "@/components";
 const DiscoverCareer = () => {
   const allJobs = careerData;
   const handleWhatsAppClick = () => {

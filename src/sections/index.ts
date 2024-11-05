@@ -41,6 +41,7 @@ import Addresses from "./contact/addresses";
 
 // Career Sections
 import DiscoverCareer from "./career/discover-career";
+import CareerChat from "./career/career-chat";
 
 // Policy Sections
 import PolicyAustrailia from "./about/policy/policy-austrailia";
@@ -73,5 +74,6 @@ export {
   ContactForm,
   Addresses,
   DiscoverCareer,
+  CareerChat,
   PolicyAustrailia,
 }

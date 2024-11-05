@@ -4,6 +4,7 @@ import ImageCarousel from "./image-carousel/image-carousel";
 import ValueCard from "./value-card/value-card";
 import HomeValuesCarousel from "./home-values-carousel/home-values-carousel";
 import AddressCard from "./address-card/address-card";
+import CareerCard from "./career-card/career-card";
 
 export {
   ItemCard,
@@ -11,4 +12,5 @@ export {
   ValueCard,
   HomeValuesCarousel,
   AddressCard,
+  CareerCard,
 }
