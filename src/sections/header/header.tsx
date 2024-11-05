@@ -21,7 +21,7 @@ const Header = () => {
 
 	return (
 		<Navbar
-			// shouldHideOnScroll
+			shouldHideOnScroll
 			onMenuOpenChange={setIsMenuOpen}
 			maxWidth="full"
 			className="!bg-custom px-8"

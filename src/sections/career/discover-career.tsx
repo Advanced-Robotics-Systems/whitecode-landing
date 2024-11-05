@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import GradientBackground from "@/assets/images/purple-gradient.png";
 import { ICONS } from "@/utils/icons";
 import { Button } from "@nextui-org/react";
 import { careerData } from "@/data";

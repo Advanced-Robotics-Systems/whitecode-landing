@@ -50,6 +50,14 @@ export const footerLinks = {
       name: "Contact Us",
       link: "/contact",
     },
+    {
+      name: "Career",
+      link: "/career",
+    },
+    {
+      name: "Privacy Policy",
+      link: "/about/policy",
+    }
   ],
 };
 
