@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const PolicyAustrailia = () => {
-  return (
-    <div>PolicyAustrailia</div>
-  )
-}
+  return <div>PolicyAustrailia</div>;
+};
 
-export default PolicyAustrailia
+export default PolicyAustrailia;
