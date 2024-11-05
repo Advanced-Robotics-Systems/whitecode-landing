@@ -8,6 +8,7 @@ import { EffectCards } from "swiper/modules";
 import { cardData } from "@/data"; // Ensure the correct path to your data
 import { FaStar, FaHeart, FaShare } from "react-icons/fa";
 import SwiperCore from "swiper";
+import { Image } from "@nextui-org/react";
 
 interface CardProps {
   id: number;
@@ -47,7 +48,7 @@ const HomeValuesCarousel: React.FC = () => {
             <div className="relative w-full h-[150px] md:h-[200px] lg:h-[250px]">
               {" "}
               {/* Responsive height */}
-              <img
+              <Image
                 src={card.image}
                 alt={card.title}
                 className="w-full h-full object-cover"
