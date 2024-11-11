@@ -1,19 +1,30 @@
 "use client";
 import { Image } from "@nextui-org/react";
 import { clientsData } from "@/data";
-
+import { motion } from "framer-motion";
 const Clients = () => {
   return (
     <section className="bg-[#251E4E]  text-white padding font-jura px-5">
-      <header className="text-center space-y-2 md:space-y-3 lg:space-y-4 mb-12 md:mb-16 lg:mb-20 ">
+      <motion.header
+        initial={{ opacity: 0, x: -20 }}
+        transition={{ duration: 0.6 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        className="text-center space-y-2 md:space-y-3 lg:space-y-4 mb-12 md:mb-16 lg:mb-20 "
+      >
         <h3 className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-primary font-semibold">
           Building Strong Relationships with Leading Brands
         </h3>
         <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-medium">
           Trusted by Industry Leaders: Partnering with <br /> Our Clients
         </h2>
-      </header>
-      <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-5 justify-center">
+      </motion.header>
+
+      <motion.div
+        initial={{ opacity: 0, x: 20 }}
+        transition={{ duration: 0.6 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        className="flex flex-wrap gap-2 md:gap-4 lg:gap-5 justify-center"
+      >
         {clientsData.map((client, index) => (
           <article
             key={index}
@@ -22,7 +33,7 @@ const Clients = () => {
             <Image radius="md" src={client?.img} alt={client?.name} />
           </article>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
