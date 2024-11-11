@@ -21,6 +21,7 @@ const config: Config = {
       "4xl": ["32px", "38px"],
       "5xl": ["40px", "48px"],
       "6xl": ["48px", "58px"],
+      "7xl": ["64px", "74px"],
       "8xl": ["96px", "106px"],
     },
     extend: {
@@ -46,6 +47,8 @@ const config: Config = {
         default: "url(/bg-default.png)",
         "blue-gradient":
           "radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))",
+        "indigo-gradient":
+          "radial-gradient(157% 182% at 3% -75%, #F7FDFF 0%, #E2E7EE 63.5%, #251E4E 99.22%)",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
