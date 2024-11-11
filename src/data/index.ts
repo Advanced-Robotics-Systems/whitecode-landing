@@ -198,6 +198,21 @@ export const projects = [
     img: "/images/projects/portfolio-tap.png",
     link: "https://www.tap.global/",
   },
+  {
+    name: "JARIS",
+    img: "/images/projects/jawahir-school.netlify.app_.png",
+    link: "https://jawahir-school.netlify.app/",
+  },
+  {
+    name: "AR Systems",
+    img: "/images/projects/arsystems.org_.png",
+    link: "https://arsystems.org/",
+  },
+  {
+    name: "AFUbot",
+    img: "/images/projects/afubot.netlify.app_.png",
+    link: "https://afubot.netlify.app/",
+  },
 ];
 
 export const services = [
