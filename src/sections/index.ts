@@ -14,6 +14,7 @@ import Services from "./home/services";
 import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
+import Clients from "./home/clients";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
@@ -41,7 +42,7 @@ import Addresses from "./contact/addresses";
 
 // Career Sections
 import DiscoverCareer from "./career/discover-career";
-
+import CareerChat from "./career/CareerChat";
 // Policy Sections
 import PolicyAustrailia from "./about/policy/policy-austrailia";
 
@@ -74,4 +75,6 @@ export {
   Addresses,
   DiscoverCareer,
   PolicyAustrailia,
-}
+  CareerChat,
+  Clients,
+};

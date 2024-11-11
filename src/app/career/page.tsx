@@ -1,5 +1,4 @@
-import { DiscoverCareer } from "@/sections";
-import CareerChat from "@/sections/career/CareerChat";
+import { CareerChat, DiscoverCareer } from "@/sections";
 import React from "react";
 
 const Career = () => {

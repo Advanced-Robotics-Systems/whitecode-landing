@@ -34,6 +34,7 @@ const config: Config = {
       },
       colors: {
         primary: "#3F9EB7",
+        indigo: "#251E4E",
         accent: "#ECEEFF",
         bgprimary: "#E6F0FA",
         "light-mint-green": "#b2fab4",

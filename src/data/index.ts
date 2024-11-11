@@ -611,3 +611,81 @@ export const privacyPolicy: PrivacyPolicyData = {
     },
   ],
 };
+
+// Our clients logos
+export const clientsData = [
+  {
+    name: "Tap",
+    img: "/images/clients/tap.png",
+  },
+  {
+    name: "KONE",
+    img: "/images/clients/kone.png",
+  },
+  {
+    name: "The Guestbook",
+    img: "/images/clients/guest-book.png",
+  },
+  {
+    name: "Fruitful",
+    img: "/images/clients/fruitful.png",
+  },
+  {
+    name: "Arkken",
+    img: "/images/clients/arkken.png",
+  },
+  {
+    name: "Workhero",
+    img: "/images/clients/work-hero.png",
+  },
+  {
+    name: "Harmonya",
+    img: "/images/clients/harmonya.png",
+  },
+  {
+    name: "Chetwood",
+    img: "/images/clients/chetwood.png",
+  },
+  {
+    name: "Raindrop",
+    img: "/images/clients/raindrop.png",
+  },
+
+  {
+    name: "Coffe Drip",
+    img: "/images/clients/coffee-drip.png",
+  },
+  {
+    name: "Krusti Foodkits",
+    img: "/images/clients/krusti.png",
+  },
+  {
+    name: "Fuocos",
+    img: "/images/clients/fuocos.png",
+  },
+  {
+    name: "Alpha Pro Partners",
+    img: "/images/clients/alpha-pro.png",
+  },
+  {
+    name: "Safetum",
+    img: "/images/clients/safetum.png",
+  },
+
+  {
+    name: "Storylake",
+    img: "/images/clients/storylake.png",
+  },
+  {
+    name: "Flexmoney",
+    img: "/images/clients/flexmoney.png",
+  },
+  {
+    name: "Wow Workspaces",
+    img: "/images/clients/wow-workspaces.png",
+  },
+  {
+    name: "Albertsons",
+    img: "/images/clients/albertsons.png",
+  },
+];

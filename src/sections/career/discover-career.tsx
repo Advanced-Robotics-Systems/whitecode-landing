@@ -4,7 +4,8 @@ import GradientBackground from "@/assets/images/purple-gradient.png";
 import { ICONS } from "@/utils/icons";
 import { Button } from "@nextui-org/react";
 import { careerData } from "@/data";
-import CareerCard from "@/components/career-card/career-card";
+import { CareerCard } from "@/components";
+
 const DiscoverCareer = () => {
   const allJobs = careerData;
   const handleWhatsAppClick = () => {
@@ -66,7 +67,7 @@ const DiscoverCareer = () => {
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="overflow-y-auto scrollbar-hide space-y-2 md:space-y-3 lg:space-y-4 flex-1"
+        className="overflow-y-auto space-y-2 md:space-y-3 lg:space-y-4 flex-1"
       >
         {allJobs.map((job, index) => (
           <div key={index}>
