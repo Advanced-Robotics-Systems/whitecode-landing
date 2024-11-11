@@ -13,7 +13,7 @@ const Clients = () => {
           Trusted by Industry Leaders: Partnering with <br /> Our Clients
         </h2>
       </header>
-      <div className="flex flex-wrap gap-5 justify-center">
+      <div className="flex flex-wrap gap-2 md:gap-4 lg:gap-5 justify-center">
         {clientsData.map((client, index) => (
           <article
             key={index}
