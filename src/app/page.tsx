@@ -5,6 +5,7 @@ import {
   Hero,
   Map,
   Mission,
+  Mission2,
   Project,
   Services,
   Solution,
@@ -20,6 +21,7 @@ export default function Home() {
       <Project />
       <Solution />
       <Services />
+      <Mission2 />
       <Map />
       <Clients />
       <Discover />

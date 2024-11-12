@@ -15,6 +15,7 @@ import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
 import Clients from "./home/clients";
+import Mission2 from "./home/mission2";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
@@ -77,4 +78,5 @@ export {
   PolicyAustrailia,
   CareerChat,
   Clients,
+  Mission2,
 };
