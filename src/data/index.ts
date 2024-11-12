@@ -1,5 +1,6 @@
 import { ICONS } from "@/utils/icons";
 import { PrivacyPolicyData } from "@/utils/types";
+import { title } from "process";
 
 // Navbar Links
 export const navLinks = [
@@ -687,5 +688,39 @@ export const clientsData = [
   {
     name: "Albertsons",
     img: "/images/clients/albertsons.png",
+  },
+];
+
+// Our services data
+export const servicesData = [
+  {
+    title: "Web Development",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Mobile Application",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Desktop Application",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Dedicated Software Team",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Custom AI & Image Processing Solution",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "IoT Application & Embedded Systems",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
   },
 ];

@@ -16,6 +16,7 @@ import Vision from "./home/vision";
 import Values from "./home/values";
 import Clients from "./home/clients";
 import Mission2 from "./home/mission2";
+import Services2 from "./home/services2";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
@@ -79,4 +80,5 @@ export {
   CareerChat,
   Clients,
   Mission2,
+  Services2,
 };

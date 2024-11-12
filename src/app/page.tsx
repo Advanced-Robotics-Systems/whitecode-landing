@@ -8,6 +8,7 @@ import {
   Mission2,
   Project,
   Services,
+  Services2,
   Solution,
   Values,
   Vision,
@@ -21,6 +22,7 @@ export default function Home() {
       <Project />
       <Solution />
       <Services />
+      <Services2 />
       <Mission2 />
       <Map />
       <Clients />
