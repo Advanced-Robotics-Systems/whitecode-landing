@@ -1,5 +1,6 @@
 "use client";
 import { ICONS } from "@/utils/icons";
+import { motion } from "framer-motion";
 import { Button, Image } from "@nextui-org/react";
 
 const Mission = () => {
@@ -9,7 +10,12 @@ const Mission = () => {
   return (
     <section className="bg-[#3F9EB726] px-5 md:px-10 lg:px-32 xl:px-40 py-8 lg:py-12 xl:py-16">
       <article className="flex flex-col md:flex-row-reverse gap-12 lg:gap-16 xl:gap-20 items-center font-jura bg-white px-5 py-7 md:px-7 md:py-10 rounded-2xl">
-        <aside className="lg:w-2/5 space-y-8 md:space-y-10 lg:space-y-16">
+        <motion.aside
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className="lg:w-2/5 space-y-8 md:space-y-10 lg:space-y-16"
+        >
           <header className="space-y-3 md:space-y-4 lg:space-y-5">
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium text-[#3A2F79]">
               Our Mission
@@ -42,11 +48,16 @@ const Mission = () => {
               </span>
             </div>
           </Button>
-        </aside>
+        </motion.aside>
 
-        <figure className="lg:w-3/5 h-full">
+        <motion.figure
+          initial={{ opacity: 0, x: 20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className="lg:w-3/5 h-full"
+        >
           <Image src="/mission.jpeg" alt="Mission" height="100%" />
-        </figure>
+        </motion.figure>
       </article>
     </section>
   );
