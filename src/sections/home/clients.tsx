@@ -4,7 +4,7 @@ import { clientsData } from "@/data";
 import { motion } from "framer-motion";
 const Clients = () => {
   return (
-    <section className="bg-[#251E4E]  text-white padding font-jura px-5">
+    <section className="bg-[#251E4E]  text-white font-jura px-5 md:px-10 lg:px-16 xl:px-20 py-10 md:py-16 lg:py-20 xl:py-24">
       <motion.header
         initial={{ opacity: 0, x: -20 }}
         transition={{ duration: 0.6 }}
@@ -18,7 +18,7 @@ const Clients = () => {
           Trusted by Industry Leaders: Partnering with <br /> Our Clients
         </h2>
       </motion.header>
-
+      {/* Client's cards goes here */}
       <motion.div
         initial={{ opacity: 0, x: 20 }}
         transition={{ duration: 0.6 }}
