@@ -9,10 +9,16 @@ import {
 
 import { Avatar } from "@nextui-org/react";
 import { reviewsData } from "@/data";
+import { motion } from "framer-motion";
 
 const ReviewCarousel = () => {
   return (
-    <div className="bg-[#241D4C] px-4 py-6 lg:px-8 lg:py-10 rounded-3xl ">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6 }}
+      className="bg-[#241D4C] px-4 py-6 lg:px-8 lg:py-10 rounded-3xl "
+    >
       <h1 className="text-white-70 text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-jura my-2 md:my-3 lg:my-4">
         What People Say
       </h1>
@@ -71,7 +77,7 @@ const ReviewCarousel = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </motion.div>
   );
 };
 
