@@ -1,12 +1,14 @@
 import {
   Chat,
   Clients,
+  ContactChat,
   Discover,
   Hero,
   Map,
   Mission,
   Mission2,
   Project,
+  ReviewFutureAwaits,
   Services,
   Services2,
   Solution,
@@ -29,7 +31,8 @@ export default function Home() {
       <Discover />
       <Vision />
       <Values />
-      <Chat />
+      {/* <Chat /> */}
+      <ReviewFutureAwaits />
     </main>
   );
 }
