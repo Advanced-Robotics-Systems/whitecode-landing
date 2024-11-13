@@ -724,3 +724,42 @@ export const servicesData = [
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
   },
 ];
+
+// Our reviews data
+export const reviewsData = [
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+];
