@@ -209,7 +209,7 @@ export const projects = [
     link: "https://afubot.netlify.app/",
   },
   {
-    name: "JARIS",
+    name: "JAREC",
     img: "/images/projects/jawahir-school.netlify.app_.png",
     link: "https://jawahir-school.netlify.app/",
   },
