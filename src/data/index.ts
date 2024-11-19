@@ -210,7 +210,7 @@ export const projects = [
   },
   {
     name: "JAREC",
-    img: "/images/projects/jawahir-school.netlify.app_.png",
+    img: "/images/projects/screencapture-jawahir-school-netlify-app-2024-11-19-17_15_21.png",
     link: "https://jawahir-school.netlify.app/",
   },
  
