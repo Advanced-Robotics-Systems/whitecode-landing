@@ -19,7 +19,7 @@ const Services2 = () => {
         backgroundPosition: "center",
       }}
     >
-      <article className="bg-gradient-to-b from-[#F8F7FD] to-[#EDF9FCD9] px-5 md:px-10 lg:px-32 xl:px-40 py-8 lg:py-12 xl:py-16 flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 font-jura">
+      <article className="bg-gradient-to-b from-[#F8F7FD] to-[#EDF9FCD9] px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16 flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 font-jura">
         <motion.aside
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -27,7 +27,7 @@ const Services2 = () => {
           className="lg:w-2/5 space-y-8 md:space-y-10 lg:space-y-16"
         >
           <header className="space-y-3 md:space-y-4 lg:space-y-5 lg:mt-10">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#1E183E]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-dark-indigo">
               What We Do
             </h2>
             <p className="text-sm md:text-base lg:text-lg xl:text-xl">
@@ -67,7 +67,7 @@ const Services2 = () => {
             // services card
             <div key={index} className="group relative ">
               <div className="group-hover:bg-white bg-primary px-6 py-8 rounded-lg font-inter space-y-7 group-hover:absolute z-20 group-hover:shadow-md transition-all duration-300">
-                <h2 className="border-l-2 border-[#3A2F79] pl-2 lg:pl-3 text-lg md:text-xl lg:text-2xl text-white group-hover:text-primary font-medium ">
+                <h2 className="border-l-2 border-light-indigo pl-2 lg:pl-3 text-lg md:text-xl lg:text-2xl text-white group-hover:text-primary font-medium ">
                   {service?.title}
                 </h2>
                 <p className="hidden group-hover:block transition-all duration-300 text-xs md:text-sm lg:text-base">

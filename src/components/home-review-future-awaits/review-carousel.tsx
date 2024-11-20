@@ -34,20 +34,21 @@ const ReviewCarousel = () => {
         }}
         centeredSlides={true}
         breakpoints={{
-          // when window width is >= 400px
+          // when window width is >= 300px
           300: {
             slidesPerView: 1,
           },
-          // when window width is >= 800px
+          // when window width is >= 640px
           640: {
             slidesPerView: 1.5,
             spaceBetween: 20,
           },
+          // when window width is >= 768px
           768: {
             slidesPerView: 1.4,
             spaceBetween: 25,
           },
-          // when window width is >= 1200px
+          // when window width is >= 1280px
           1280: {
             slidesPerView: 1.5,
             spaceBetween: 30,

@@ -763,3 +763,43 @@ export const reviewsData = [
       "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
   },
 ];
+
+// work process data
+export const workProcessData = [
+  {
+    id: 1,
+    title: "Discover & Define",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 2,
+    title: "Design",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 3,
+    title: "Develop",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 4,
+    title: "QA Testing",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 5,
+    title: "Deploy & Check",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 6,
+    title: "Maintanence",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+];

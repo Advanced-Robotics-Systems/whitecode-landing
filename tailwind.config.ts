@@ -10,6 +10,25 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xxs: "400px",
+
+      xs: "480px",
+
+      sm: "640px",
+
+      md: "768px",
+
+      lg: "1024px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
+
+      "3xl": "1700px",
+
+      "4xl": "1880px",
+    },
     fontSize: {
       xs: ["12px", "16px"],
       sm: ["14px", "20px"],
@@ -38,6 +57,9 @@ const config: Config = {
         indigo: "#251E4E",
         accent: "#ECEEFF",
         bgprimary: "#E6F0FA",
+        "sky-15": "#3F9EB726",
+        "dark-indigo": "#1E183E",
+        "light-indigo": "#3A2F79",
         "light-mint-green": "#b2fab4",
         "pastel-turquoise": "#a7ffeb",
         "light-peach": "#ffccbc",

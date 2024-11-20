@@ -14,23 +14,25 @@ import {
   Solution,
   Values,
   Vision,
+  WoorkProcess,
 } from "@/sections";
 
 export default function Home() {
   return (
     <main className="relative">
       <Hero />
-      <Mission />
-      <Project />
+      {/* <Mission />
+      <Project /> */}
       <Solution />
-      <Services />
+      <WoorkProcess />
+      {/* <Services /> */}
       <Services2 />
       <Mission2 />
       <Map />
       <Clients />
       <Discover />
-      <Vision />
-      <Values />
+      {/* <Vision /> */}
+      {/* <Values /> */}
       {/* <Chat /> */}
       <ReviewFutureAwaits />
     </main>

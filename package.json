@@ -12,6 +12,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@nextui-org/react": "^2.4.6",
+    "@xyflow/react": "^12.3.5",
     "framer-motion": "^11.3.31",
     "next": "14.2.7",
     "react": "^18",

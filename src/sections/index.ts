@@ -18,6 +18,7 @@ import Clients from "./home/clients";
 import Mission2 from "./home/mission2";
 import Services2 from "./home/services2";
 import ReviewFutureAwaits from "./home/review&feture";
+import WoorkProcess from "./home/work-process";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
@@ -83,4 +84,5 @@ export {
   Mission2,
   Services2,
   ReviewFutureAwaits,
+  WoorkProcess,
 };

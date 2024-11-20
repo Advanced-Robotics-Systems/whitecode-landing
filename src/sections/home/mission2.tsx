@@ -8,7 +8,7 @@ const Mission = () => {
     window.open(`http://localhost:3000/about`);
   };
   return (
-    <section className="bg-[#3F9EB726] px-5 md:px-10 lg:px-32 xl:px-40 py-8 lg:py-12 xl:py-16">
+    <section className="bg-sky-15 px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16">
       <article className="flex flex-col md:flex-row-reverse gap-12 lg:gap-16 xl:gap-20 items-center font-jura bg-white px-5 py-7 md:px-7 md:py-10 rounded-2xl">
         <motion.aside
           initial={{ opacity: 0, x: -20 }}
@@ -17,7 +17,7 @@ const Mission = () => {
           className="lg:w-2/5 space-y-8 md:space-y-10 lg:space-y-16"
         >
           <header className="space-y-3 md:space-y-4 lg:space-y-5">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium text-[#3A2F79]">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium text-light-indigo">
               Our Mission
             </h2>
             <p className="text-base md:text-lg lg:text-xl xl:text-2xl">
