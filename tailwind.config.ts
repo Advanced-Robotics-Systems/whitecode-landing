@@ -10,6 +10,25 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xxs: "400px",
+
+      xs: "480px",
+
+      sm: "640px",
+
+      md: "768px",
+
+      lg: "1024px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
+
+      "3xl": "1700px",
+
+      "4xl": "1880px",
+    },
     fontSize: {
       xs: ["12px", "16px"],
       sm: ["14px", "20px"],
@@ -21,6 +40,7 @@ const config: Config = {
       "4xl": ["32px", "38px"],
       "5xl": ["40px", "48px"],
       "6xl": ["48px", "58px"],
+      "7xl": ["64px", "74px"],
       "8xl": ["96px", "106px"],
     },
     extend: {
@@ -34,8 +54,12 @@ const config: Config = {
       },
       colors: {
         primary: "#3F9EB7",
+        indigo: "#251E4E",
         accent: "#ECEEFF",
         bgprimary: "#E6F0FA",
+        "sky-15": "#3F9EB726",
+        "dark-indigo": "#1E183E",
+        "light-indigo": "#3A2F79",
         "light-mint-green": "#b2fab4",
         "pastel-turquoise": "#a7ffeb",
         "light-peach": "#ffccbc",
@@ -45,6 +69,8 @@ const config: Config = {
         default: "url(/bg-default.png)",
         "blue-gradient":
           "radial-gradient(146.52% 386.94% at 23.92% 71.99%, #92B1DC 52.5%, #8F76ED 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49))",
+        "indigo-gradient":
+          "radial-gradient(157% 182% at 3% -75%, #F7FDFF 0%, #E2E7EE 63.5%, #251E4E 99.22%)",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",

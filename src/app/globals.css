@@ -58,6 +58,9 @@
     @apply sm:pb-24 pb-12;
   }
 
+  .padding-responsive {
+    @apply px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16;
+  }
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }

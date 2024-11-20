@@ -14,6 +14,11 @@ import Services from "./home/services";
 import Discover from "./home/discover";
 import Vision from "./home/vision";
 import Values from "./home/values";
+import Clients from "./home/clients";
+import Mission2 from "./home/mission2";
+import Services2 from "./home/services2";
+import ReviewFutureAwaits from "./home/review&feture";
+import WoorkProcess from "./home/work-process";
 
 // Work Sections
 import WorkHero from "./work/work-hero";
@@ -74,6 +79,11 @@ export {
   ContactForm,
   Addresses,
   DiscoverCareer,
-  CareerChat,
   PolicyAustrailia,
-}
+  CareerChat,
+  Clients,
+  Mission2,
+  Services2,
+  ReviewFutureAwaits,
+  WoorkProcess,
+};

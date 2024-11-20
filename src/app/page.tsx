@@ -1,29 +1,40 @@
 import {
-	Chat,
-	Discover,
-	Hero,
-	Map,
-	Mission,
-	Project,
-	Services,
-	Solution,
-	Values,
-	Vision,
+  Chat,
+  Clients,
+  ContactChat,
+  Discover,
+  Hero,
+  Map,
+  Mission,
+  Mission2,
+  Project,
+  ReviewFutureAwaits,
+  Services,
+  Services2,
+  Solution,
+  Values,
+  Vision,
+  WoorkProcess,
 } from "@/sections";
 
 export default function Home() {
-	return (
-		<main className="relative">
-			<Hero />
-			<Mission />
-			<Project />
-			<Solution />
-			<Services />
+  return (
+    <main className="relative">
+      <Hero />
+      {/* <Mission />
+      <Project /> */}
+      <Solution />
+      <WoorkProcess />
+      {/* <Services /> */}
+      <Services2 />
+      <Mission2 />
       <Map />
-			<Discover />
-			<Vision />
-			<Values />
-			<Chat />
-		</main>
-	);
+      <Clients />
+      <Discover />
+      {/* <Vision /> */}
+      {/* <Values /> */}
+      {/* <Chat /> */}
+      <ReviewFutureAwaits />
+    </main>
+  );
 }

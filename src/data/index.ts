@@ -1,5 +1,6 @@
 import { ICONS } from "@/utils/icons";
 import { PrivacyPolicyData } from "@/utils/types";
+import { title } from "process";
 
 // Navbar Links
 export const navLinks = [
@@ -635,3 +636,194 @@ export const privacyPolicy: PrivacyPolicyData = {
     },
   ],
 };
+
+// Our clients logos
+export const clientsData = [
+  {
+    name: "Tap",
+    img: "/images/clients/tap.png",
+  },
+  {
+    name: "KONE",
+    img: "/images/clients/kone.png",
+  },
+  {
+    name: "The Guestbook",
+    img: "/images/clients/guest-book.png",
+  },
+  {
+    name: "Fruitful",
+    img: "/images/clients/fruitful.png",
+  },
+  {
+    name: "Arkken",
+    img: "/images/clients/arkken.png",
+  },
+  {
+    name: "Workhero",
+    img: "/images/clients/work-hero.png",
+  },
+  {
+    name: "Harmonya",
+    img: "/images/clients/harmonya.png",
+  },
+  {
+    name: "Chetwood",
+    img: "/images/clients/chetwood.png",
+  },
+  {
+    name: "Raindrop",
+    img: "/images/clients/raindrop.png",
+  },
+
+  {
+    name: "Coffe Drip",
+    img: "/images/clients/coffee-drip.png",
+  },
+  {
+    name: "Krusti Foodkits",
+    img: "/images/clients/krusti.png",
+  },
+  {
+    name: "Fuocos",
+    img: "/images/clients/fuocos.png",
+  },
+  {
+    name: "Alpha Pro Partners",
+    img: "/images/clients/alpha-pro.png",
+  },
+  {
+    name: "Safetum",
+    img: "/images/clients/safetum.png",
+  },
+
+  {
+    name: "Storylake",
+    img: "/images/clients/storylake.png",
+  },
+  {
+    name: "Flexmoney",
+    img: "/images/clients/flexmoney.png",
+  },
+  {
+    name: "Wow Workspaces",
+    img: "/images/clients/wow-workspaces.png",
+  },
+  {
+    name: "Albertsons",
+    img: "/images/clients/albertsons.png",
+  },
+];
+
+// Our services data
+export const servicesData = [
+  {
+    title: "Web Development",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Mobile Application",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Desktop Application",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Dedicated Software Team",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "Custom AI & Image Processing Solution",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+  {
+    title: "IoT Application & Embedded Systems",
+    description:
+      "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+  },
+];
+
+// Our reviews data
+export const reviewsData = [
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+  {
+    name: "Alex Mulder",
+    designation: "Founder USG People",
+    img: "/alex.png",
+    review:
+      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+  },
+];
+
+// work process data
+export const workProcessData = [
+  {
+    id: 1,
+    title: "Discover & Define",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 2,
+    title: "Design",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 3,
+    title: "Develop",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 4,
+    title: "QA Testing",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 5,
+    title: "Deploy & Check",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+  {
+    id: 6,
+    title: "Maintanence",
+    description:
+      "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+];
