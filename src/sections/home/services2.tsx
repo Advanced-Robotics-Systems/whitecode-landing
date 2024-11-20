@@ -38,13 +38,7 @@ const Services2 = () => {
 
           <Button
             radius="full"
-            size={
-              window.innerWidth >= 1024
-                ? "lg"
-                : window.innerWidth >= 768
-                ? "md"
-                : "sm"
-            }
+            size="md"
             variant="ghost"
             className="border-2 border-black font-medium hover:!bg-transparent hover:scale-105"
             onPress={handleAboutUsClick}
