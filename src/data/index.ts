@@ -5,14 +5,13 @@ import { title } from "process";
 // Navbar Links
 export const navLinks = [
   {
-    name: "Services",
-    link: "/services",
-  },
-  {
     name: "Our Work",
     link: "/work",
   },
-
+  {
+    name: "Services",
+    link: "/services",
+  },
   {
     name: "About Us",
     link: "/about",
