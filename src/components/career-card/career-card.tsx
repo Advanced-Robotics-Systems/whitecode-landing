@@ -34,9 +34,3 @@ const CareerCard = ({
 };
 
 export default CareerCard;
-
-
-{
-
-
-}
