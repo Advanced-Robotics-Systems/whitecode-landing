@@ -30,13 +30,7 @@ const Mission = () => {
 
           <Button
             radius="full"
-            size={
-              window.innerWidth >= 1024
-                ? "lg"
-                : window.innerWidth >= 768
-                ? "md"
-                : "sm"
-            }
+            size="md"
             variant="ghost"
             className="border-1 border-black hover:!bg-transparent hover:scale-105"
             endContent={ICONS.arrow_right}

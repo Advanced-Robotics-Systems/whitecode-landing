@@ -69,13 +69,7 @@ const Services2 = () => {
                 </p>
                 <Button
                   radius="full"
-                  size={
-                    window.innerWidth >= 1024
-                      ? "lg"
-                      : window.innerWidth >= 768
-                      ? "md"
-                      : "sm"
-                  }
+                  size="md"
                   variant="ghost"
                   className="border-1 border-white text-white group-hover:bg-primary  hover:scale-105  font-semibold"
                   endContent={ICONS.arrow_right}
