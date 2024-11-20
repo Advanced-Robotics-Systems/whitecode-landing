@@ -8,7 +8,7 @@ const Mission = () => {
     window.open(`http://localhost:3000/about`);
   };
   return (
-    <section className="bg-sky-15 px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16">
+    <section className="bg-sky-15 padding-responsive">
       <article className="flex flex-col md:flex-row-reverse gap-12 lg:gap-16 xl:gap-20 items-center font-jura bg-white px-5 py-7 md:px-7 md:py-10 rounded-2xl">
         <motion.aside
           initial={{ opacity: 0, x: -20 }}

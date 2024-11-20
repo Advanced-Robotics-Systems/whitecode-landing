@@ -19,7 +19,7 @@ const Services2 = () => {
         backgroundPosition: "center",
       }}
     >
-      <article className="bg-gradient-to-b from-[#F8F7FD] to-[#EDF9FCD9] px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16 flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 font-jura">
+      <article className="bg-gradient-to-b from-[#F8F7FD] to-[#EDF9FCD9] padding-responsive flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 font-jura">
         <motion.aside
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}

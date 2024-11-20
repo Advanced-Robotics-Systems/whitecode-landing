@@ -4,7 +4,7 @@ import { ProcessFlow, ProcessSwiper } from "@/components";
 
 const WoorkProcess = () => {
   return (
-    <section className="bg-sky-15 px-5 md:px-10 lg:px-16 xl:px-24 2xl:px-32 3xl:px-40 py-8 lg:py-12 xl:py-16 flex flex-col lg:flex-row gap-6 lg:gap-5 xl:gap-16 justify-between font-jura bg-gradient-to-tl from-[#FBFEFE8C] to-[#F9FDFE8C] ">
+    <section className="bg-sky-15 padding-responsive flex flex-col lg:flex-row gap-6 lg:gap-5 xl:gap-16 justify-between font-jura bg-gradient-to-tl from-[#FBFEFE8C] to-[#F9FDFE8C] ">
       <motion.aside
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -14,6 +14,7 @@ const WoorkProcess = () => {
         <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-primary mb-4 md:mb-6 lg:mb-8">
           How we work
         </h2>
+        {/* development process swiper slide */}
         <ProcessSwiper />
       </motion.aside>
       <motion.aside
