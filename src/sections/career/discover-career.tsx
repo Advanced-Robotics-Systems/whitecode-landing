@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import GradientBackground from "@/assets/images/purple-gradient.png";
 import { ICONS } from "@/utils/icons";
 import { Button } from "@nextui-org/react";
 import { careerData } from "@/data";
@@ -43,13 +42,7 @@ const DiscoverCareer = () => {
         >
           <Button
             radius="full"
-            size={
-              window.innerWidth >= 1024
-                ? "lg"
-                : window.innerWidth >= 768
-                ? "md"
-                : "sm"
-            }
+            size="lg"
             variant="ghost"
             className="border-1 border-black hover:!bg-transparent hover:scale-105"
             endContent={ICONS.arrow_right}

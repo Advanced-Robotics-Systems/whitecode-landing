@@ -19,12 +19,12 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const pathname = usePathname();
 
-  return (
-    <Navbar
-      // shouldHideOnScroll
-      onMenuOpenChange={setIsMenuOpen}
-      maxWidth="full"
-      className="bg-[#1D173D] px-8"
+	return (
+		<Navbar
+			// shouldHideOnScroll
+			onMenuOpenChange={setIsMenuOpen}
+			maxWidth="full"
+			className="!bg-custom px-8"
       height="5rem"
       classNames={{
         item: [

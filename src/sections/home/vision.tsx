@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import { Image } from "@nextui-org/react";
 
 const Vision = () => {
   return (
@@ -35,7 +36,7 @@ const Vision = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="relative w-full sm:w-3/4 md:w-2/3 lg:w-2/3 h-auto flex justify-center"
         >
-          <img
+          <Image
             src="/vision.jpg" // Ensure the correct path to your image file
             alt="Team collaborating on a project"
             className="w-full h-auto object-contain rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105"

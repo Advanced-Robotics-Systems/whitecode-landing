@@ -51,6 +51,14 @@ export const footerLinks = {
       name: "Contact Us",
       link: "/contact",
     },
+    {
+      name: "Career",
+      link: "/career",
+    },
+    {
+      name: "Privacy Policy",
+      link: "/about/policy",
+    }
   ],
 };
 
@@ -191,6 +199,22 @@ export const projects = [
     img: "/images/projects/portfolio-tap.png",
     link: "https://www.tap.global/",
   },
+  {
+    name: "AR Systems",
+    img: "/images/projects/arsystems.org_.png",
+    link: "https://arsystems.org/",
+  },
+  {
+    name: "AFUbot",
+    img: "/images/projects/afubot.netlify.app_.png",
+    link: "https://afubot.netlify.app/",
+  },
+  {
+    name: "JAREC",
+    img: "/images/projects/screencapture-jawahir-school-netlify-app-2024-11-19-17_15_21.png",
+    link: "https://jawahir-school.netlify.app/",
+  },
+ 
 ];
 
 export const services = [
