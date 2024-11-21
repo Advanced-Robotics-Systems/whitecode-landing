@@ -5,12 +5,12 @@ import { title } from "process";
 // Navbar Links
 export const navLinks = [
   {
-    name: "Our Work",
-    link: "/work",
-  },
-  {
     name: "Services",
     link: "/services",
+  },
+  {
+    name: "Our Work",
+    link: "/work",
   },
   {
     name: "About Us",
@@ -58,7 +58,7 @@ export const footerLinks = {
     {
       name: "Privacy Policy",
       link: "/about/policy",
-    }
+    },
   ],
 };
 
@@ -214,7 +214,6 @@ export const projects = [
     img: "/images/projects/screencapture-jawahir-school-netlify-app-2024-11-19-17_15_21.png",
     link: "https://jawahir-school.netlify.app/",
   },
- 
 ];
 
 export const services = [

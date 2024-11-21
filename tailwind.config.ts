@@ -59,6 +59,7 @@ const config: Config = {
         bgprimary: "#E6F0FA",
         "sky-15": "#3F9EB726",
         "dark-indigo": "#1E183E",
+        "deep-indigo": "#1D173D",
         "light-indigo": "#3A2F79",
         "light-mint-green": "#b2fab4",
         "pastel-turquoise": "#a7ffeb",
