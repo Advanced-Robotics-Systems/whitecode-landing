@@ -9,7 +9,7 @@ const FutureAwaits = () => {
   };
 
   return (
-    <article className="padding font-jura w-full flex flex-col items-center justify-center gap-18 md:gap-12 lg:gap-16 h-[45vh] lg:h-[calc(100vh-400px)] text-white ">
+    <article className="padding font-jura w-full flex flex-col items-center justify-center gap-8 md:gap-12 lg:gap-16 h-[45vh] lg:h-[70vh] text-white ">
       <motion.header
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
