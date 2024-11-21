@@ -1,6 +1,7 @@
 import { ICONS } from "@/utils/icons";
 import { PrivacyPolicyData } from "@/utils/types";
 import { title } from "process";
+import { MdDescription } from "react-icons/md";
 
 // Navbar Links
 export const navLinks = [
@@ -824,5 +825,24 @@ export const workProcessData = [
     title: "Maintanence",
     description:
       "First of all, our main objective is to define and analyze the client&apos;s core requirements for the project, such as duration, needed skill set, and the number of experts required.",
+  },
+];
+
+// What we deliver data
+export const servicesDeliverData = [
+  {
+    title: "Our Promise: Putting Client Success First",
+    description:
+      "At WhiteCode, our client&apos;s satisfaction is at the core of everything we do. With over 250 five-star reviews and a reputation built on delivering results, we&apos;re committed to ensuring each project meets and exceeds expectations. Every client works directly with a dedicated account manager, ensuring open communication and a seamless experience from start to finish. We're here to make sure you get the outcomes that matter to your business.",
+  },
+  {
+    title: "Expertise You Can Rely On",
+    description:
+      "At WhiteCode, we approach every project with a deep understanding of industry challenges and a dedication to personalized solutions. Our team of skilled developers, designers, and strategists takes the time to understand your brand and its unique needs. This thoughtful approach allows us to deliver innovative, high-quality solutions that drive real results. By focusing on your vision, we ensure that each project we undertake is as meaningful to us as it is to you.",
+  },
+  {
+    title: "Driven by Quality and Innovation",
+    description:
+      "WhiteCode is built on a foundation of expertise and a dedication to quality. From custom software to full-scale digital solutions, we bring a high standard of technical knowledge and creativity to every project. Our team is focused on delivering solutions that not only meet your expectations but also push boundaries and deliver impactful results. With WhiteCode, you&apos;re partnering with a team that&apos;s passionate about helping your business succeed through technology and design that stands out.",
   },
 ];

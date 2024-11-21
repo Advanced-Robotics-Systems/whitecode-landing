@@ -1,4 +1,10 @@
-import { AllServices, Chat, Services2, ServicesHero } from "@/sections";
+import {
+  AllServices,
+  Chat,
+  Services2,
+  ServicesDeliver,
+  ServicesHero,
+} from "@/sections";
 import React from "react";
 
 const Services = () => {
@@ -7,7 +13,7 @@ const Services = () => {
       <ServicesHero />
       <AllServices />
       <Services2 />
-      {/* <ServicesDeliver /> */}
+      <ServicesDeliver />
       <Chat />
     </main>
   );

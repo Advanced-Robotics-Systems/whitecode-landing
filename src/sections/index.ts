@@ -27,7 +27,7 @@ import AllWorks from "./work/all-works";
 // Services Sections
 import ServicesHero from "./services/services-hero";
 import AllServices from "./services/all-services";
-// import ServicesDeliver from "./services/services-deliver";
+import ServicesDeliver from "./services/services-deliver";
 
 // About Us Sections
 import AboutHero from "./about/about-hero";
@@ -87,4 +87,5 @@ export {
   Services2,
   ReviewFutureAwaits,
   WoorkProcess,
+  ServicesDeliver,
 };
