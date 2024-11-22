@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 		title: "Project WhiteCode | Transforming Businesses with Custom Software",
 		description:
 			"Partner with Project WhiteCode for tailored software and app development solutions. Let us help you achieve your business goals.",
-		images: ["/preview.png"],
+		images: ["/home-preview.png"],
 	},
 	robots: {
 		index: true,
