@@ -17,6 +17,7 @@ import {
 	WoorkProcess,
 } from "@/sections";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://prowhitecode.com"),
@@ -57,49 +58,56 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "https://prowhitecode.com",
 	},
-	other: {
-		"application/ld+json": JSON.stringify({
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Project WhiteCode",
-			"url": "https://prowhitecode.com",
-			"logo": "https://prowhitecode.com/favicon.png",
-			"sameAs": [
-				"https://www.facebook.com/YourPage",
-				"https://twitter.com/YourHandle",
-				"https://www.linkedin.com/company/project-whitecode/",
-			],
-			"description":
-				"Project WhiteCode offers custom software and app development services tailored to businesses worldwide.",
-			"contactPoint": {
-				"@type": "ContactPoint",
-				"telephone": "+880 1622-257180",
-				"contactType": "Customer Service",
-				"areaServed": "Worldwide",
-				"availableLanguage": ["English"],
-			},
-		}),
-	},
 };
 
 export default function Home() {
 	return (
-		<main className="relative">
-			<Hero />
-			{/* <Mission />
+		<>
+			<Script
+        id="json-ld-organization"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Project WhiteCode",
+            "url": "https://prowhitecode.com",
+            "logo": "https://prowhitecode.com/favicon.png",
+            "sameAs": [
+              "https://www.facebook.com/YourPage",
+              "https://twitter.com/YourHandle",
+              "https://www.linkedin.com/company/project-whitecode/"
+            ],
+            "description":
+              "Project WhiteCode offers custom software and app development services tailored to businesses worldwide.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+880 1622-257180",
+              "contactType": "Customer Service",
+              "areaServed": "Worldwide",
+              "availableLanguage": ["English"]
+            }
+          }),
+        }}
+      />
+			<main className="relative">
+				<Hero />
+				{/* <Mission />
       <Project /> */}
-			<Solution />
-			<WoorkProcess />
-			{/* <Services /> */}
-			<Services2 />
-			<Mission2 />
-			<Map />
-			<Clients />
-			<Discover />
-			{/* <Vision /> */}
-			{/* <Values /> */}
-			{/* <Chat /> */}
-			<ReviewFutureAwaits />
-		</main>
+				<Solution />
+				<WoorkProcess />
+				{/* <Services /> */}
+				<Services2 />
+				<Mission2 />
+				<Map />
+				<Clients />
+				<Discover />
+				{/* <Vision /> */}
+				{/* <Values /> */}
+				{/* <Chat /> */}
+				<ReviewFutureAwaits />
+			</main>
+		</>
 	);
 }
