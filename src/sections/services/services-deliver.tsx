@@ -1,10 +1,5 @@
 "use client";
-import { ICONS } from "@/utils/icons";
 import GradientBackground from "@/assets/images/purple-gradient.png";
-import { Button } from "@nextui-org/react";
-import { servicesData } from "@/data";
-import { motion } from "framer-motion";
-import Link from "next/link";
 import { servicesDeliverData } from "@/data";
 
 const ServicesDeliver = () => {

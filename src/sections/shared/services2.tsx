@@ -65,17 +65,19 @@ const Services2 = () => {
                 <p className="hidden group-hover:block transition-all duration-300 text-xs md:text-sm lg:text-base">
                   {service?.description}
                 </p>
-                <Button
-                  radius="full"
-                  size="md"
-                  variant="ghost"
-                  className="border-1 border-white text-white group-hover:bg-primary  hover:scale-105  font-semibold"
-                  endContent={ICONS.arrow_right}
-                >
-                  <div className=" py-4">
-                    <span className="text-base md:text-lg">View Service</span>
-                  </div>
-                </Button>
+                <Link href={service?.link}>
+                  <Button
+                    radius="full"
+                    size="md"
+                    variant="ghost"
+                    className="border-1 border-white text-white group-hover:bg-primary  hover:scale-105 mt-8 font-semibold"
+                    endContent={ICONS.arrow_right}
+                  >
+                    <div className=" py-4">
+                      <span className="text-base md:text-lg">View Service</span>
+                    </div>
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

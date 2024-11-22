@@ -719,33 +719,184 @@ export const clientsData = [
 export const servicesData = [
   {
     title: "Web Development",
+    link: "services/web-development",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle: "Premier Web Development Solutions for High-Performance Websites",
+    subDescriptions:
+      "Our web development services empower businesses with scalable, high-performing websites that capture attention and drive results. Our expert developers specialize in creating tailored, responsive websites optimized for both desktop and mobile, ensuring a seamless experience across all devices. Whether you're launching an e-commerce site, corporate portal, or an interactive platform, we align our development process with your brand and business goals.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "Why Custom Web Development Matters",
+        description:
+          "Your website isn&apos;t just another webpage; it&apos;s often the first impression customers have of your brand. Custom web development lets us build a site that feels truly yours—unique, memorable, and completely aligned with your brand. Unlike templates, which can feel cookie-cutter, a custom site is optimized for search engines, user experience, and the future growth of your business. Whether you need an e-commerce platform, a corporate portal, or a dynamic blog, we design websites that don&apos;t just look great—they get results.",
+      },
+
+      {
+        id: "02",
+        title: "Technologies We Use",
+        description:
+          "We keep up with the latest tech to ensure your site is secure, high-performing, and visually stunning. Our developers are experts in HTML5, CSS3, JavaScript, and frameworks like React, Angular, and Node.js. For the backend, we use reliable technologies like Python, PHP. This versatile toolkit means we can create websites that work beautifully on any device, so your visitors get a seamless experience no matter how they connect.",
+      },
+      {
+        id: "03",
+        title: "Our Process",
+        description:
+          "Every great website starts with a solid plan. We kick things off by learning about your goals and your audience. From there, we move into wireframing and design, where we create a layout that&apos;s both attractive and intuitive. Once you&apos;re happy with the design, we dive into development, making sure everything is optimized for performance and SEO. After thorough testing, we launch your site and provide ongoing support to keep it running smoothly.",
+      },
+    ],
   },
   {
     title: "Mobile Application",
+    link: "services/mobile-app",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle: "Engage Customers On-the-Go with Premier Mobile Apps",
+    subDescriptions:
+      "With our mobile app development services, reach your audience anytime, anywhere. We create apps that are intuitive, fast, and tailored for both iOS and Android platforms. Our team focuses on delivering user-centered, feature-rich applications that improve engagement and customer satisfaction.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "Our Mobile App Development Process",
+        description:
+          "Creating a mobile app isn&apos;t just about the code; it&apos;s about crafting an experience that keeps people coming back. Our process starts with understanding what makes your business unique and who your users are. From there, we design an app that&apos;s easy to navigate and fun to use. During development, we rigorously test for performance and security so that your app meets all the standards of a world-class product.",
+      },
+
+      {
+        id: "02",
+        title: "Benefits of Choosing WhiteCode for Mobile Apps",
+        description:
+          "We&apos;re here to make sure your app isn&apos;t just downloaded—it&apos;s used and loved. Our focus is on creating mobile experiences that are engaging, user-friendly, and reliable. We understand the nuances of mobile platforms, and we&apos;re dedicated to building an app that aligns with your business goals and delights your users.",
+      },
+      {
+        id: "03",
+        title: "Platforms We Support",
+        description:
+          "Whether your users are on iOS or Android, we&apos;ve got you covered. Our team builds apps using native languages like Swift and Kotlin for performance, as well as frameworks like React Native and Flutter for cross-platform functionality. This means we can create a seamless, high-quality experience for all your users, no matter their device.",
+      },
+    ],
   },
   {
     title: "Desktop Application",
+    link: "services/desktop-app",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle: "Premier Desktop Applications for Enhanced Productivity",
+    subDescriptions:
+      "Optimize your workflows and enhance productivity with our desktop application development services. We specialize in creating high-performing, user-friendly desktop applications designed to streamline internal processes and boost efficiency. Whether for in-house use or broad distribution, our desktop solutions deliver functionality and performance.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "Why Choose a Desktop Application",
+        description:
+          "Desktop applications provide robust performance, security, and offline capabilities that are essential for many business functions. Unlike web applications, desktop apps can access system-level resources directly, making them ideal for complex tasks and data-intensive processes. We design desktop applications that are fully customized to meet the specific needs of your business, providing an efficient solution that enhances productivity.",
+      },
+
+      {
+        id: "02",
+        title: "Features and Capabilities",
+        description:
+          "Our desktop applications come with tailored interfaces that make them easy to use for your team. We offer features like offline functionality, data encryption, and seamless integration with existing software and systems. By focusing on your unique requirements, we ensure the application enhances your operational efficiency without compromising security.",
+      },
+      {
+        id: "03",
+        title: "Industries We Serve",
+        description:
+          "From finance and healthcare to retail and education, we&apos;ve developed desktop applications across a variety of industries. Each application is crafted to support the specific needs of its industry, ensuring compliance, performance, and usability.",
+      },
+    ],
   },
   {
     title: "Dedicated Software Team",
+    link: "services/dedicated-software-team",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle: "Hire Dedicated Software Teams to Accelerate Your Projects",
+    subDescriptions:
+      "Expand your development capabilities with our skilled software teams. We provide experienced professionals who work seamlessly with your in-house team, ensuring high-quality solutions and timely delivery. Our dedicated teams adapt to your workflows, helping you meet deadlines and exceed client expectations.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "Benefits of Dedicated Teams",
+        description:
+          "When you need to ramp up quickly, hiring a dedicated software team can save time and money. We bring in skilled professionals who can integrate seamlessly with your team, handle the technical details, and allow you to stay focused on your goals. Plus, with a dedicated team, you can scale up or down as your project evolves, keeping everything agile and efficient.",
+      },
+
+      {
+        id: "02",
+        title: "Our Expertise",
+        description:
+          "Our team members are experts in front-end and back-end development, as well as emerging fields like AI and IoT. We bring the technical skills needed to bring your project to life, and we&apos;re here to help with everything from coding to quality assurance.",
+      },
+      {
+        id: "03",
+        title: "How It Works",
+        description:
+          "Our dedicated software teams become an extension of your team, working alongside you to achieve your goals. We handle recruitment, training, and integration so that you can keep your focus on strategic growth.",
+      },
+    ],
   },
   {
     title: "Custom AI & Image Processing Solution",
+    link: "services/ai-&-image-processing",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle: "AI & Image Processing Solutions Tailored to Your Business Needs",
+    subDescriptions:
+      "Harness the power of AI and advanced image processing to unlock deeper insights and automate complex tasks. Our custom AI solutions are designed to solve unique business challenges, from image recognition and data analysis to predictive modeling.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "How AI Can Transform Your Business",
+        description:
+          "Artificial Intelligence (AI) opens up new opportunities for efficiency and insights, allowing businesses to automate repetitive tasks, improve decision-making, and provide personalized experiences. With our AI and image processing solutions, we help businesses make sense of complex data, automate processes, and increase accuracy. From object detection to predictive analytics, our custom solutions are tailored to your industry needs.",
+      },
+
+      {
+        id: "02",
+        title: "Capabilities",
+        description:
+          "Our AI solutions include image recognition, object detection, facial recognition, and more. By using machine learning algorithms, we can help your business turn visual data into actionable insights, enabling you to respond faster and more intelligently.",
+      },
+      {
+        id: "03",
+        title: "Industries Benefiting from AI",
+        description:
+          "Industries like retail, healthcare, and automotive can benefit immensely from AI and image processing. Retailers can use it for inventory management, healthcare providers for diagnostics, and automotive companies for safety systems. We provide customized solutions that adapt to the specific needs of each sector.",
+      },
+    ],
   },
   {
     title: "IoT Application & Embedded Systems",
+    link: "services/iot-&-embedded-systems",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
+    subtitle:
+      "Connect the Physical and Digital Worlds with IoT & Embedded Solutions",
+    subDescriptions:
+      "We provide cutting-edge IoT applications and embedded system solutions that enable seamless connectivity, automation, and data collection across devices. Our team designs systems that help businesses improve efficiency and monitor processes in real-time.",
+    areaEexpertise: [
+      {
+        id: "01",
+        title: "The Power of IoT in Modern Businesses",
+        description:
+          "IoT technology allows businesses to monitor, manage, and control devices in real-time, making processes more efficient and data-driven. From smart homes to industrial automation, IoT solutions empower businesses to connect physical assets with the digital world, creating endless possibilities for automation and innovation. Our IoT applications and embedded systems help businesses enhance productivity and data insights, improving overall efficiency.",
+      },
+
+      {
+        id: "02",
+        title: "Core IoT Solutions We Offer",
+        description:
+          "Our IoT solutions include device-to-device communication, real-time data collection, remote monitoring, and analytics. With smart sensors and embedded systems, we help you harness the power of data to make informed decisions and streamline operations.",
+      },
+      {
+        id: "03",
+        title: "Industries We Serve",
+        description:
+          "We work with industries like healthcare, agriculture, logistics, and manufacturing, developing customized IoT solutions to meet the unique demands of each sector. Whether it&apos;s improving crop management in agriculture or enhancing supply chain visibility in logistics, we bring IoT innovation to your industry.",
+      },
+    ],
   },
 ];
 
