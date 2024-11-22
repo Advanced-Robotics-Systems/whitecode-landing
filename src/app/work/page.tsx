@@ -59,7 +59,7 @@ const Work = () => {
             "@context": "https://schema.org",
             "@type": "WebPage",
             "name": "Our Work - Project WhiteCode",
-            "url": `${siteData.organization.url}/our-work`,
+            "url": `${siteData.organization.url}/work`,
             "description":
               "Explore the portfolio of Project WhiteCode. See our innovative software solutions, including web applications, mobile apps, enterprise systems, and custom AI projects tailored to meet business needs worldwide.",
             "mainEntity": {

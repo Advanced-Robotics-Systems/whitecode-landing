@@ -62,12 +62,15 @@ const About = () => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "AboutPage",
+						"name": "About Us - Project Whitecode",
+            "url": `${siteData.organization.url}/about`,
+						"description": "Learn more about Project WhiteCode, our mission, vision, and values. We specialize in delivering custom software and app development services worldwide.",
             "mainEntity": {
               "@type": "Organization",
               "name": siteData.organization.name,
               "url": siteData.organization.url,
               "logo": siteData.organization.logo,
-              "description": "Learn more about Project WhiteCode, our mission, vision, and values. We specialize in delivering custom software and app development services worldwide.",
+              "description": siteData.organization.description,
               "sameAs": siteData.organization.sameAs,
 							"address": siteData.organization.address,
 							"contactPoint": siteData.organization.contactPoint,
