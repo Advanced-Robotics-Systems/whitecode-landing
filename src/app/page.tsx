@@ -87,7 +87,7 @@ export default function Home() {
 							"addressLocality": "Melbourne",
 							"addressRegion": "VIC",
 							"postalCode": "3000",
-							"addressCountry": "Australia"
+							"addressCountry": "AU",
 						},
             "contactPoint": {
               "@type": "ContactPoint",
