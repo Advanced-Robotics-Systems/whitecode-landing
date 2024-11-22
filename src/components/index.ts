@@ -14,6 +14,7 @@ import RightToLeftNode from "./ReactFlow/CustomeNodes/right-to-left-node";
 import CustomEdge from "./ReactFlow/CustomeEdges/custome-edge";
 import ProcessFlow from "./ReactFlow/process-flow";
 import ProcessSwiper from "./dev-process-carousel/process-swiper";
+import ExpertiseCard from "./expertise-card/expertise-card";
 
 export {
   ItemCard,
@@ -31,4 +32,5 @@ export {
   CustomEdge,
   ProcessFlow,
   ProcessSwiper,
+  ExpertiseCard,
 };

@@ -12,7 +12,7 @@ const Solution = () => {
         className="w-[90%] xl:w-[70%] text-center"
       >
         <span className="text-white font-jura font-bold text-2xl xs:text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl tracking-wider">
-          Our Premier Choice <br /> for Custom Software & App <br /> Development
+          Premier Choice <br /> for Custom Software & App <br /> Development
           Services
         </span>
       </motion.div>

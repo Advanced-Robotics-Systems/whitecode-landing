@@ -19,8 +19,9 @@ const ReviewCarousel = () => {
       transition={{ duration: 0.6 }}
       className="bg-[#241D4C] px-4 py-6 lg:px-8 lg:py-10 rounded-3xl "
     >
-      <h1 className="text-white-70 text-center text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-jura my-2 md:my-3 lg:my-4">
-        What People Say
+      <h1 className="text-white-70 text-center text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-jura my-2 md:my-3 lg:my-4">
+        Pioneering Tech to Startups: <br />
+        WhiteCode&apos;s Trail of Success Stories.
       </h1>
       <Swiper
         modules={[Autoplay, Pagination, Navigation, EffectCoverflow]}
