@@ -2,6 +2,7 @@ import { Addresses, ContactChat, ContactForm } from "@/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://prowhitecode.com"),
 	title: "Contact Us | Project WhiteCode - Custom Software & App Development",
 	description:
 		"Get in touch with Project WhiteCode for custom software and app development services. Contact us to discuss your project and achieve your business goals.",

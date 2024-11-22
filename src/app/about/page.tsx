@@ -9,6 +9,7 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://prowhitecode.com"),
 	title: "About Us | Project WhiteCode - Custom Software & App Development",
 	description:
 		"Discover the mission, story, and core values of Project WhiteCode. Learn how we create impactful software and app development solutions tailored to businesses worldwide.",

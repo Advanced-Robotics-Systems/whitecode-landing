@@ -4,6 +4,7 @@ import { AllWorks, Chat, WorkHero } from "@/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://prowhitecode.com"),
   title: "Our Work | Project WhiteCode - Innovative Software Solutions",
   description:
     "Explore the portfolio of Project WhiteCode. See our innovative software solutions, including web and mobile apps, enterprise systems, and custom AI projects.",
