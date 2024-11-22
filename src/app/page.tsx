@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 		siteName: "Project WhiteCode",
 		images: [
 			{
-				url: "/preview.png",
+				url: "/home-preview.png",
 				width: 1200,
 				height: 630,
 				alt: "Project WhiteCode - Custom Software Development",
