@@ -1,3 +1,4 @@
+import { siteData } from "@/data/site-data";
 import {
 	AboutHero,
 	AboutMission,
@@ -7,6 +8,7 @@ import {
 	Story,
 } from "@/sections";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://prowhitecode.com"),
@@ -51,14 +53,37 @@ export const metadata: Metadata = {
 
 const About = () => {
 	return (
-		<main>
-			<AboutHero />
-			<AboutMission />
-			<Story />
-			<AboutValuesNew />
-			<Map />
-			<Chat />
-		</main>
+		<>
+			<Script
+        id="json-ld-about-page"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "mainEntity": {
+              "@type": "Organization",
+              "name": siteData.organization.name,
+              "url": siteData.organization.url,
+              "logo": siteData.organization.logo,
+              "description": "Learn more about Project WhiteCode, our mission, vision, and values. We specialize in delivering custom software and app development services worldwide.",
+              "sameAs": siteData.organization.sameAs,
+							"address": siteData.organization.address,
+							"contactPoint": siteData.organization.contactPoint,
+            }
+          }),
+        }}
+      />
+			<main>
+				<AboutHero />
+				<AboutMission />
+				<Story />
+				<AboutValuesNew />
+				<Map />
+				<Chat />
+			</main>
+		</>
 	);
 };
 
