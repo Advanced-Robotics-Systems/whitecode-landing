@@ -9,6 +9,7 @@ import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://prowhitecode.com"),
 	title: "Our Services | Project WhiteCode - Custom Software & App Development",
 	description:
 		"Explore the range of services offered by Project WhiteCode, including web applications, mobile apps, desktop software, AI solutions, IoT systems, and more. Tailored to meet your business needs.",
