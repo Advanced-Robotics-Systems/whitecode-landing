@@ -4,6 +4,7 @@ import Footer from "./footer/footer";
 // Shared Section
 import Chat from "./shared/chat";
 import Map from "./shared/map";
+import Services2 from "./shared/services2";
 
 // Home Sections
 import Hero from "./home/hero";
@@ -16,7 +17,6 @@ import Vision from "./home/vision";
 import Values from "./home/values";
 import Clients from "./home/clients";
 import Mission2 from "./home/mission2";
-import Services2 from "./home/services2";
 import ReviewFutureAwaits from "./home/review&feture";
 import WoorkProcess from "./home/work-process";
 
@@ -27,6 +27,7 @@ import AllWorks from "./work/all-works";
 // Services Sections
 import ServicesHero from "./services/services-hero";
 import AllServices from "./services/all-services";
+import ServicesDeliver from "./services/services-deliver";
 
 // About Us Sections
 import AboutHero from "./about/about-hero";
@@ -86,4 +87,5 @@ export {
   Services2,
   ReviewFutureAwaits,
   WoorkProcess,
+  ServicesDeliver,
 };

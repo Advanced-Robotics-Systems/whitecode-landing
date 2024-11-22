@@ -4,11 +4,9 @@ import GradientBackground from "@/assets/images/purple-gradient.png";
 import { Button } from "@nextui-org/react";
 import { servicesData } from "@/data";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Services2 = () => {
-  const handleAboutUsClick = () => {
-    window.open(`http://localhost:3000/services`);
-  };
   return (
     <section
       className=""
@@ -24,7 +22,7 @@ const Services2 = () => {
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="lg:w-2/5 space-y-8 md:space-y-10 lg:space-y-16"
+          className="lg:w-2/5 "
         >
           <header className="space-y-3 md:space-y-4 lg:space-y-5 lg:mt-10">
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-dark-indigo">
@@ -35,20 +33,20 @@ const Services2 = () => {
               systems analysis to market predictions and utilization.
             </p>
           </header>
-
-          <Button
-            radius="full"
-            size="md"
-            variant="ghost"
-            className="border-2 border-black font-medium hover:!bg-transparent hover:scale-105"
-            onPress={handleAboutUsClick}
-          >
-            <div className=" py-4">
-              <span className="text-base md:text-xl lg:text-2xl">
-                Explore services
-              </span>
-            </div>
-          </Button>
+          <Link href="/services">
+            <Button
+              radius="full"
+              size="md"
+              variant="ghost"
+              className="border-2 border-black font-medium hover:!bg-transparent hover:scale-105 mt-8 md:mt-10 lg:mt-16"
+            >
+              <div className=" py-4">
+                <span className="text-base md:text-xl lg:text-2xl">
+                  Explore services
+                </span>
+              </div>
+            </Button>
+          </Link>
         </motion.aside>
 
         <motion.aside
@@ -67,18 +65,19 @@ const Services2 = () => {
                 <p className="hidden group-hover:block transition-all duration-300 text-xs md:text-sm lg:text-base">
                   {service?.description}
                 </p>
-                <Button
-                  radius="full"
-                  size="md"
-                  variant="ghost"
-                  className="border-1 border-white text-white group-hover:bg-primary  hover:scale-105  font-semibold"
-                  endContent={ICONS.arrow_right}
-                  onPress={handleAboutUsClick}
-                >
-                  <div className=" py-4">
-                    <span className="text-base md:text-lg">View Service</span>
-                  </div>
-                </Button>
+                <Link href={service?.link}>
+                  <Button
+                    radius="full"
+                    size="md"
+                    variant="ghost"
+                    className="border-1 border-white text-white group-hover:bg-primary  hover:scale-105 mt-8 font-semibold"
+                    endContent={ICONS.arrow_right}
+                  >
+                    <div className=" py-4">
+                      <span className="text-base md:text-lg">View Service</span>
+                    </div>
+                  </Button>
+                </Link>
               </div>
             </div>
           ))}

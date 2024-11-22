@@ -1,4 +1,11 @@
-import { AllServices, Chat, ServicesHero } from "@/sections";
+import {
+  AllServices,
+  Chat,
+  Services2,
+  ServicesDeliver,
+  ServicesHero,
+} from "@/sections";
+import React from "react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -43,13 +50,15 @@ export const metadata: Metadata = {
 };
 
 const Services = () => {
-	return (
-		<main>
-			<ServicesHero />
-			<AllServices />
-			<Chat />
-		</main>
-	);
+  return (
+    <main>
+      <ServicesHero />
+      <AllServices />
+      <Services2 />
+      <ServicesDeliver />
+      <Chat />
+    </main>
+  );
 };
 
 export default Services;
