@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Career | Project WhiteCode - Join Our Team",
     description:
       "Explore career opportunities at Project WhiteCode. Join our team of software developers, designers, and project managers to create innovative software solutions.",
-    images: ["/home-.png"],
+    images: ["/home-preview.png"],
   },
   robots: {
     index: true,
