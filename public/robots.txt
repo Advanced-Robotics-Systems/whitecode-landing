@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Disallow: /404
+Disallow: /500
+
+# Host
+Host: https://prowhitecode.com
+
+# Sitemaps
+Sitemap: https://prowhitecode.com/sitemap.xml
