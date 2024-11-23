@@ -67,19 +67,19 @@ export const footerLinks = {
 export const footerSocials = [
   {
     icon: ICONS.instagram,
-    link: "https://www.instagram.com",
+    link: "https://www.instagram.com/prowhitecodeofficial.au/",
   },
+  // {
+  //   icon: ICONS.twitter,
+  //   link: "https://www.twitter.com",
+  // },
   {
-    icon: ICONS.twitter,
-    link: "https://www.twitter.com",
-  },
-  {
-    icon: ICONS.youtube,
-    link: "https://www.youtube.com",
+    icon: ICONS.facebook,
+    link: "https://www.facebook.com/profile.php?id=61566845451708",
   },
   {
     icon: ICONS.linkedin,
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/project-whitecode/",
   },
 ];
 

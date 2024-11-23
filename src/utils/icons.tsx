@@ -4,6 +4,7 @@ import {
   FaLinkedin,
   FaXTwitter,
   FaYoutube,
+  FaSquareFacebook,
 } from "react-icons/fa6";
 import {
   FaChevronLeft,
@@ -18,6 +19,7 @@ export const ICONS = {
   twitter: <FaXTwitter />,
   youtube: <FaYoutube />,
   linkedin: <FaLinkedin />,
+  facebook: <FaSquareFacebook />,
   arrow_right: <FaLongArrowAltRight />,
   arrow_left: <FaLongArrowAltLeft />,
   chat: <IoChatbubblesOutline />,
