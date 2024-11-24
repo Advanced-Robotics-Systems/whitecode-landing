@@ -17,6 +17,10 @@ export const navLinks = [
     name: "About Us",
     link: "/about",
   },
+  {
+    name: "Career",
+    link: "/career",
+  },
   // {
   //   name: "News",
   //   link: "/news",
