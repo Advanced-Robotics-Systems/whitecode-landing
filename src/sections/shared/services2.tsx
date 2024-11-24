@@ -29,7 +29,7 @@ const Services2 = () => {
               What We Do
             </h2>
             <p className="text-sm md:text-base lg:text-lg xl:text-xl">
-              Customized solutions for a wide range of challenges, from power
+              Project Whitecode offers customized solutions for a wide range of challenges, from power
               systems analysis to market predictions and utilization.
             </p>
           </header>
