@@ -19,10 +19,11 @@ const Mission = () => {
 							Our Mission
 						</h2>
 						<p className="text-base md:text-lg lg:text-xl xl:text-2xl">
-							We position ourselves to provide affordable IT solutions for all
-							sorts of business sizes, so you don&apos;t have to worry if
-							you&apos;re an SME. Our budget is tailored according to the size
-							of your business.
+							Project WhiteCode is a brand—a brand of Trust. Our mission is to
+							be a trusted partner in innovation. We are committed to
+							understanding and prioritizing each client&apos;s unique needs,
+							ensuring that every solution is crafted with precision,
+							reliability, and security.
 						</p>
 					</header>
 					<Button
