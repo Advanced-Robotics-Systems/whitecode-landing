@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   const [text, setText] = useState("");
-  const fullText = "WhiteCode is Clean Code";
+  const fullText = "Project WhiteCode is Clean Code";
 
   useEffect(() => {
     let index = 0;
@@ -38,13 +38,13 @@ const Hero = () => {
         muted
       />
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 backdrop-blur-md z-10"></div>
-      <motion.div
+      <motion.article
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
         className="relative z-20 w-[90%] xl:w-[70%] text-center flex justify-center items-center"
       >
-        <motion.div
+        <motion.h1
           className="text-white font-jura font-extrabold tracking-widest"
           style={{ fontSize: "clamp(2rem, 8vw, 6rem)" }} // Dynamic font size
           initial={{ opacity: 0 }}
@@ -58,8 +58,8 @@ const Hero = () => {
           >
             |
           </motion.span>
-        </motion.div>
-      </motion.div>
+        </motion.h1>
+      </motion.article>
     </section>
   );
 };
