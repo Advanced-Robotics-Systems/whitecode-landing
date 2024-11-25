@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 	description:
 		"Transform your business with Project WhiteCode. We specialize in delivering cutting-edge custom software and app development solutions to meet your unique needs.",
 	keywords:
-		"custom software development, app development, software development company, software development services, tailored app solutions, Next.js app development, SaaS development company, enterprise software solutions, business automation tools",
+		"Project Whitecode, custom software development, app development, software development company, software development services, tailored app solutions, Next.js app development, SaaS development company, enterprise software solutions, business automation tools",
 	openGraph: {
 		title: "Project WhiteCode | Custom Software & App Development Experts",
 		description:
@@ -99,6 +99,7 @@ export default function Home() {
 					}),
 				}}
 			/>
+
 			<main className="relative">
 				<Hero />
 				{/* <Mission />
