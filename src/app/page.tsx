@@ -64,45 +64,45 @@ export default function Home() {
 	return (
 		<>
 			<Script
-        id="json-ld-organization"
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Project WhiteCode",
-            "url": "https://prowhitecode.com",
-            "logo": "https://prowhitecode.com/favicon.png",
-            "sameAs": [
-              "https://www.facebook.com/profile.php?id=61566845451708",
-              "https://www.instagram.com/prowhitecodeofficial.au/",
-              "https://www.linkedin.com/company/project-whitecode/"
-            ],
-            "description":
-              "Project WhiteCode offers custom software and app development services tailored to businesses worldwide.",
-							"address": {
+				id="json-ld-organization"
+				type="application/ld+json"
+				strategy="afterInteractive"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "Organization",
+						name: "Project WhiteCode",
+						url: "https://prowhitecode.com",
+						logo: "https://prowhitecode.com/favicon.png",
+						sameAs: [
+							"https://www.facebook.com/profile.php?id=61566845451708",
+							"https://www.instagram.com/prowhitecodeofficial.au/",
+							"https://www.linkedin.com/company/project-whitecode/",
+						],
+						description:
+							"Project WhiteCode offers custom software and app development services tailored to businesses worldwide.",
+						address: {
 							"@type": "PostalAddress",
-							"streetAddress": "576 Flinders Lane",
-							"addressLocality": "Melbourne",
-							"addressRegion": "VIC",
-							"postalCode": "3000",
-							"addressCountry": "AU",
+							streetAddress: "576 Flinders Lane",
+							addressLocality: "Melbourne",
+							addressRegion: "VIC",
+							postalCode: "3000",
+							addressCountry: "AU",
 						},
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+61 414 452 281",
-              "contactType": "Customer Service",
-              "areaServed": "Worldwide",
-              "availableLanguage": ["English"]
-            },
-          }),
-        }}
-      />
+						contactPoint: {
+							"@type": "ContactPoint",
+							telephone: "+61 414 452 281",
+							contactType: "Customer Service",
+							areaServed: "Worldwide",
+							availableLanguage: ["English"],
+						},
+					}),
+				}}
+			/>
 			<main className="relative">
 				<Hero />
 				{/* <Mission />
-      <Project /> */}
+      			<Project /> */}
 				<Solution />
 				<WoorkProcess />
 				{/* <Services /> */}
