@@ -15,6 +15,7 @@ import CustomEdge from "./ReactFlow/CustomeEdges/custome-edge";
 import ProcessFlow from "./ReactFlow/process-flow";
 import ProcessSwiper from "./dev-process-carousel/process-swiper";
 import ExpertiseCard from "./expertise-card/expertise-card";
+import Addresses from "./contact-address/addresses";
 
 export {
   ItemCard,
@@ -33,4 +34,5 @@ export {
   ProcessFlow,
   ProcessSwiper,
   ExpertiseCard,
+  Addresses,
 };

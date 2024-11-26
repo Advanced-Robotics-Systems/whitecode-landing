@@ -11,61 +11,18 @@ const ContactChat = () => {
   };
 
   return (
-    <div
-      className=" padding font-jura w-full flex flex-col items-center justify-center gap-10 md:gap-14 lg:gap-20 h-[45vh] lg:h-[calc(100vh-100px)] "
-      style={{
-        background: `url(${GradientBackgrouund.src})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className=" bg-[#EDF9FC] padding font-jura w-full flex flex-col items-center justify-center gap-10 md:gap-14 lg:gap-20 h-[35vh] lg:h-[55vh] ">
       <motion.div
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3, ease: easeInOut }}
         className="text-center"
       >
-        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-center">
+        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-primary">
           The Future
           <br />
           Awaits
         </p>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, x: -20 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.3, ease: easeInOut }}
-      >
-        <p className="text-lg md:text-xl lg:text-2xl xl:text-3xl text-center">
-          Have a project? Let&apos;s Chat!
-        </p>
-      </motion.div>
-
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, ease: easeInOut, delay: 0.3 }}
-      >
-        <motion.button
-          initial={{ width: "50px" }}
-          whileHover={{ width: "150px" }}
-          transition={{ type: "spring", stiffness: 300 }}
-          onClick={handleWhatsAppClick}
-          className="bg-green-500 text-white flex items-center justify-start gap-3 rounded-full overflow-hidden p-4 active:bg-green-700 transition duration-150"
-        >
-          <span className="text-base lg:text-lg ">{ICONS.chat}</span>
-
-          <motion.span
-            initial={{ opacity: 0 }}
-            whileHover={{ opacity: 1 }}
-            transition={{ ease: "easeInOut" }}
-            className="text-base lg:text-lg whitespace-nowrap"
-          >
-            WhatsApp
-          </motion.span>
-        </motion.button>
       </motion.div>
     </div>
   );

@@ -9,14 +9,14 @@ const FutureAwaits = () => {
   };
 
   return (
-    <article className="padding font-jura w-full flex flex-col items-center justify-center gap-8 md:gap-12 lg:gap-16 h-[45vh] lg:h-[70vh] text-white ">
+    <article className="padding font-jura w-full flex flex-col items-center justify-center gap-8 md:gap-12 lg:gap-16 h-[45vh] md:h-[50vh] lg:h-[75vh] text-white ">
       <motion.header
         initial={{ opacity: 0, x: 20 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.3, ease: easeInOut }}
         className="text-center"
       >
-        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-center font-bold">
+        <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-center font-bold mt-8 md:mt-12 lg:mt-20">
           The Future
           <br />
           Awaits

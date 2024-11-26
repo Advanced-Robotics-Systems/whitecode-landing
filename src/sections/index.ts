@@ -43,7 +43,7 @@ import AllNews from "./news/all-news";
 // Contact Us Sections
 import ContactChat from "./contact/contact-chat";
 import ContactForm from "./contact/contact-form";
-import Addresses from "./contact/addresses";
+import Reviews from "./contact/reviews";
 
 // Career Sections
 import DiscoverCareer from "./career/discover-career";
@@ -78,7 +78,6 @@ export {
   AllNews,
   ContactChat,
   ContactForm,
-  Addresses,
   DiscoverCareer,
   PolicyAustrailia,
   CareerChat,
@@ -88,4 +87,5 @@ export {
   ReviewFutureAwaits,
   WoorkProcess,
   ServicesDeliver,
+  Reviews,
 };
