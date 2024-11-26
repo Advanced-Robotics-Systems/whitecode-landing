@@ -19,7 +19,7 @@ const Footer = () => {
             />
           </div>
           <div className="text-primary font-montserrat text-xl max-sm:text-medium">
-            We make your dreams realize
+            Turning Ideas into Reality
           </div>
         </div>
 
