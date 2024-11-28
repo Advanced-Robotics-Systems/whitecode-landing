@@ -67,6 +67,7 @@ const config: Config = {
         "pastel-turquoise": "#a7ffeb",
         "light-peach": "#ffccbc",
         "white-70": "#FFFFFFB3",
+        "off-white": "#FCFCFC",
       },
       backgroundImage: {
         default: "url(/bg-default.png)",

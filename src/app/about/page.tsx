@@ -1,10 +1,14 @@
 import {
   AboutHero,
+  AboutHero2,
   AboutMission,
   AboutValuesNew,
+  CareerChat,
   Chat,
   ChooseUs,
+  Clients,
   Map,
+  Services2,
   Story,
 } from "@/sections";
 import { Metadata } from "next";
@@ -53,13 +57,17 @@ export const metadata: Metadata = {
 const About = () => {
   return (
     <main>
-      <AboutHero />
+      <AboutHero2 />
+      {/* <AboutHero /> */}
       <AboutMission />
+      <Services2 />
       <ChooseUs />
-      <Story />
-      <AboutValuesNew />
+      {/* <Story /> */}
+      {/* <AboutValuesNew /> */}
       <Map />
-      <Chat />
+      <Clients />
+      <CareerChat />
+      {/* <Chat /> */}
     </main>
   );
 };
