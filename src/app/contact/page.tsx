@@ -1,4 +1,4 @@
-import { Addresses, ContactChat, ContactForm, Map, Reviews } from "@/sections";
+import { ContactChat, ContactForm, Map, Reviews } from "@/sections";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
