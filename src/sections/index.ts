@@ -35,6 +35,7 @@ import AboutMission from "./about/about-mission";
 import Story from "./about/story";
 import AboutValues from "./about/about-values";
 import AboutValuesNew from "./about/about-values-new";
+import ChooseUs from "./about/why-choose-us";
 
 // News Sections
 import NewsHero from "./news/news-hero";
@@ -88,4 +89,5 @@ export {
   WoorkProcess,
   ServicesDeliver,
   Reviews,
+  ChooseUs,
 };
