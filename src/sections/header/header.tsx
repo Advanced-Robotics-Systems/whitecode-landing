@@ -68,7 +68,7 @@ const Header = () => {
               href={item.link}
               className={`font-montserrat text-accent ${
                 pathname === item.link && "!text-primary"
-              }`}
+              } ${item.name === "Contact Us" && "bg-white rounded-full px-4 py-2 text-deep-indigo"}`}
             >
               {item.name}
             </Link>
