@@ -335,7 +335,34 @@ export const countries: any = {
     name: "Bangladesh",
     address: "Oasis, House 47, Road 3A, Dhanmondi, Dhaka - 1205",
   },
+  "Saudi Arabia": {
+    name: "Saudi Arabia",
+    address: "King Abdul Aziz Road, Riyadh 12331",
+  },
 };
+
+export const countryData = [
+  {
+    name: "WhiteCode AUS",
+    address: "909 Third Avenue \n New York, New York 10022 \n United State",
+    hq: "Aus Headquaters",
+  },
+  {
+    name: "WhiteCode AUS",
+    address: "909 Third Avenue \n New York, New York 10022 \n United State",
+    hq: "Aus Headquaters",
+  },
+  {
+    name: "WhiteCode AUS",
+    address: "909 Third Avenue \n New York, New York 10022 \n United State",
+    hq: "Aus Headquaters",
+  },
+  {
+    name: "WhiteCode AUS",
+    address: "909 Third Avenue \n New York, New York 10022 \n United State",
+    hq: "Aus Headquaters",
+  },
+];
 
 export const cardData = [
   {
@@ -999,5 +1026,24 @@ export const servicesDeliverData = [
     title: "Driven by Quality and Innovation",
     description:
       "WhiteCode is built on a foundation of expertise and a dedication to quality. From custom software to full-scale digital solutions, we bring a high standard of technical knowledge and creativity to every project. Our team is focused on delivering solutions that not only meet your expectations but also push boundaries and deliver impactful results. With WhiteCode, you&apos;re partnering with a team that&apos;s passionate about helping your business succeed through technology and design that stands out.",
+  },
+];
+
+// about page why choose us section data
+export const chooseUsData = [
+  {
+    title: "Supporting Employment for Individuals with Disabilities",
+    description:
+      "We actively create job opportunities for individuals with disabilities, ensuring they have equal access to meaningful employment in texh sector. Our inclusive workplace fosters a suportive environment where everyone can thrive.",
+  },
+  {
+    title: "Affordable Solutions",
+    description:
+      "We positions ourselves to provide affordable IT solutions for all sorts of business sizes, so you don't have to worry if you're an SME. Our budget is tailored according to the sizes of your business needs.",
+  },
+  {
+    title: "Empowering Women",
+    description:
+      "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women.",
   },
 ];

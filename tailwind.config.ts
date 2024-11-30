@@ -57,6 +57,7 @@ const config: Config = {
         indigo: "#251E4E",
         accent: "#ECEEFF",
         bgprimary: "#E6F0FA",
+        "primary-20": "#3F9EB72E",
         "dark-gray": "#333333",
         "sky-15": "#3F9EB726",
         "dark-indigo": "#1E183E",
@@ -66,6 +67,7 @@ const config: Config = {
         "pastel-turquoise": "#a7ffeb",
         "light-peach": "#ffccbc",
         "white-70": "#FFFFFFB3",
+        "off-white": "#FCFCFC",
       },
       backgroundImage: {
         default: "url(/bg-default.png)",
