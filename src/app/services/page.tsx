@@ -53,8 +53,6 @@ export const metadata: Metadata = {
 const Services = () => {
   return (
     <main>
-      {/* <ServicesHero />
-      <AllServices /> */}
       <Services2 />
       <ServicesDeliver />
       <Chat />
