@@ -6,6 +6,7 @@ import Chat from "./shared/chat";
 import Map from "./shared/map";
 import CareerChat from "./shared/career-chat";
 import Services2 from "./shared/services2";
+import ReviewFutureAwaits from "./shared/review&feture";
 
 // Home Sections
 import Hero from "./home/hero";
@@ -18,7 +19,6 @@ import Vision from "./home/vision";
 import Values from "./home/values";
 import Clients from "./shared/clients";
 import Mission2 from "./home/mission2";
-import ReviewFutureAwaits from "./home/review&feture";
 import WoorkProcess from "./home/work-process";
 
 // Work Sections
@@ -53,6 +53,16 @@ import DiscoverCareer from "./career/discover-career";
 
 // Policy Sections
 import PolicyAustrailia from "./about/policy/policy-austrailia";
+
+// Blogs Sections
+import BlogsHero from "./blogs/blogs-hero";
+import AllBlogs from "./blogs/all-blogs";
+
+// single blog sections
+import BlogHero from "./single-blog/blog-hero";
+import BlogIntro from "./single-blog/blog-intro";
+import BlogDetails from "./single-blog/blog-details";
+import OtherBlogs from "./single-blog/other-blogs";
 
 export {
   Header,
@@ -92,4 +102,10 @@ export {
   Reviews,
   ChooseUs,
   AboutHero2,
+  BlogsHero,
+  AllBlogs,
+  BlogHero,
+  BlogIntro,
+  BlogDetails,
+  OtherBlogs,
 };

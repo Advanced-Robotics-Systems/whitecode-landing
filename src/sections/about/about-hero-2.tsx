@@ -14,7 +14,7 @@ const AboutHero2 = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className=" bg-[#1E183EBF] flex flex-col justify-center items-center h-full padding-responsive">
+      <div className=" bg-dark-indigo-70 flex flex-col justify-center items-center h-full padding-responsive">
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

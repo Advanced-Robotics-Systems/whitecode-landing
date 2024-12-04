@@ -1,14 +1,14 @@
 "use client";
 import React, { useState } from "react";
-import { Button, ButtonGroup } from "@nextui-org/button";
+import { Button } from "@nextui-org/button";
 import { RadioGroup, Radio } from "@nextui-org/radio";
-import { Input, Textarea } from "@nextui-org/react";
-import { ICONS } from "@/utils/icons";
-import Image from "next/image";
+import { Input, Link, Textarea } from "@nextui-org/react";
 import GradientBackground from "@/assets/images/purple-gradient.png";
 import ReCAPTCHA from "react-google-recaptcha";
 import { Addresses } from "@/components";
 import { easeInOut, motion } from "framer-motion";
+
+import { footerSocials } from "@/data";
 
 const ContactForm = () => {
   const [isVerified, setIsVerified] = useState(false);
@@ -205,10 +205,13 @@ const ContactForm = () => {
         className="absolute lg:right-8 xl:right-20 top-36 hidden lg:block"
       >
         <ul className="space-y-3">
-          <li className="text-2xl">{ICONS.linkedin}</li>
-          <li className="text-2xl">{ICONS.youtube}</li>
-          <li className="text-2xl">{ICONS.instagram}</li>
-          <li className="text-2xl">{ICONS.twitter}</li>
+          {footerSocials.map((item, index) => (
+            <li key={index}>
+              <Link href={item.link} size="lg" className="text-indigo">
+                {item.icon}
+              </Link>
+            </li>
+          ))}
         </ul>
       </motion.aside>
     </div>
