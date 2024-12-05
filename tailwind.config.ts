@@ -12,21 +12,13 @@ const config: Config = {
   theme: {
     screens: {
       xxs: "400px",
-
       xs: "480px",
-
       sm: "640px",
-
       md: "768px",
-
       lg: "1024px",
-
       xl: "1280px",
-
       "2xl": "1536px",
-
       "3xl": "1700px",
-
       "4xl": "1880px",
     },
     fontSize: {
