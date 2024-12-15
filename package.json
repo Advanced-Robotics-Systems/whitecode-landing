@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.13.0",
     "@nextui-org/react": "^2.4.6",
     "@xyflow/react": "^12.3.5",
+    "contentful": "^11.3.0",
     "framer-motion": "^11.3.31",
     "next": "14.2.7",
     "next-sitemap": "^4.2.3",

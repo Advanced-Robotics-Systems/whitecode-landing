@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 import { ICONS } from "@/utils/icons";
 
 const AllBlogs = () => {
+  // console.log(blogs);
   const oldBlogs = allBlogs.slice(1);
-
   return (
     <div className="w-full padding-responsive flex flex-col items-center justify-center gap-12 md:gap-16 lg:gap-20 font-jura bg-ice-blue">
       {/* lates blogs */}

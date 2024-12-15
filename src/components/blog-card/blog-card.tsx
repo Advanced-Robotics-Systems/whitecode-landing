@@ -6,6 +6,7 @@ import {
   CardHeader,
   Image,
 } from "@nextui-org/react";
+import Link from "next/link";
 import React from "react";
 
 const BlogCard = ({ title, img }: { title: string; img: string }) => {
@@ -27,12 +28,14 @@ const BlogCard = ({ title, img }: { title: string; img: string }) => {
       </CardBody>
 
       <CardFooter className="justify-end">
-        <Button
-          radius="full"
-          className="bg-transparent border border-primary text-primary font-medium hover:bg-primary hover:text-white duration-200"
-        >
-          Read More
-        </Button>
+        <Link href={"blogs/blog/" + "slug"}>
+          <Button
+            radius="full"
+            className="bg-transparent border border-primary text-primary font-medium hover:bg-primary hover:text-white duration-200"
+          >
+            Read More
+          </Button>
+        </Link>
       </CardFooter>
     </Card>
   );
