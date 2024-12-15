@@ -28,7 +28,7 @@ const BlogCard = ({ title, img }: { title: string; img: string }) => {
       </CardBody>
 
       <CardFooter className="justify-end">
-        <Link href={"blogs/blog/" + "slug"}>
+        <Link href={`blogs/${title}`}>
           <Button
             radius="full"
             className="bg-transparent border border-primary text-primary font-medium hover:bg-primary hover:text-white duration-200"
