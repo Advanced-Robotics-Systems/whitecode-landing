@@ -13,13 +13,10 @@ import React from "react";
 const News = () => {
   return (
     <div>
-      <BlogsHero />
-      <AllBlogs />
-      <CareerChat />
-      {/* <NewsHero /> */}
-      {/* <ImageCarousel projects={carouselNews} /> */}
-      {/* <AllNews /> */}
-      {/* <Chat /> */}
+      <NewsHero />
+      <ImageCarousel projects={carouselNews} />
+      <AllNews />
+      <Chat />
     </div>
   );
 };
