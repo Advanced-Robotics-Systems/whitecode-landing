@@ -1047,3 +1047,47 @@ export const chooseUsData = [
       "We are dedicated to promoting gender diversity and inclusion within the tech industry. Our initiatives focus on empowering women.",
   },
 ];
+
+// Blogs data
+export const allBlogs = [
+  {
+    img: "blog-1.png",
+    title: "Is Google Search a Storefront for Online Marketers?",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Menu Anxiety - The Phenomenon That Can Ruin Your Dinner",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Is it possible to generate leads with ASC+ in Meta Ads?",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Is the AI hype slowly dying down?",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Can a Programmatic Specialist create creatives?",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Does email marketing still work?",
+  },
+  {
+    img: "blog-1.png",
+
+    title: "Is the AI hype slowly dying down?",
+  },
+
+  {
+    img: "blog-1.png",
+
+    title: "Gen Z is a scam. Why do we still use generational labels?",
+  },
+];

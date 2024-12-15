@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "@/assets/images/Logo_White.png";
 import Image from "next/image";
-import { footerLinks, footerSocials } from "@/data";
 import { Link } from "@nextui-org/react";
+import { footerLinks, footerSocials } from "@/data";
 
 const Footer = () => {
   return (
