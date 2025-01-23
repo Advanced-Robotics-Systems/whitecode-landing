@@ -21,12 +21,12 @@ const ServicesDeliver = () => {
           {servicesDeliverData.map((item, index) => (
             <article
               key={index}
-              className="flex flex-col md:flex-row gap-7 md:gap-10 w-4/5 "
+              className="flex flex-col md:flex-row gap-4 md:gap-10 w-4/5 "
             >
-              <h3 className="md:w-1/2 text-primary text-base md:text-lg lg:text-2xl font-bold">
+              <h3 className="md:w-1/2 text-primary text-lg md:text-xl lg:text-2xl font-bold">
                 {item?.title}
               </h3>
-              <p className="md:w-1/2 text-dark-indigo text-xs md:texxt-sm lg:text-base">
+              <p className="md:w-1/2 text-dark-indigo text-sm md:texxt-base lg:text-lg">
                 {item?.description}
               </p>
             </article>

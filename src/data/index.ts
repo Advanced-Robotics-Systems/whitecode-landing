@@ -805,7 +805,7 @@ export const servicesData = [
     ],
   },
   {
-    title: "Desktop Application",
+    title: "Desktop Application Team",
     link: "services/desktop-app",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
@@ -1018,17 +1018,17 @@ export const servicesDeliverData = [
   {
     title: "Our Promise: Putting Client Success First",
     description:
-      "At WhiteCode, our client&apos;s satisfaction is at the core of everything we do. With over 250 five-star reviews and a reputation built on delivering results, we&apos;re committed to ensuring each project meets and exceeds expectations. Every client works directly with a dedicated account manager, ensuring open communication and a seamless experience from start to finish. We're here to make sure you get the outcomes that matter to your business.",
+      "At Project WhiteCode, our commitment to client success is at the heart of everything we do. We understand that our clients are not just looking for a service provider; they seek a trusted partner who is invested in their growth and success. This promise drives us to deliver exceptional results tailored to each client's unique needs and objectives.",
   },
   {
     title: "Expertise You Can Rely On",
     description:
-      "At WhiteCode, we approach every project with a deep understanding of industry challenges and a dedication to personalized solutions. Our team of skilled developers, designers, and strategists takes the time to understand your brand and its unique needs. This thoughtful approach allows us to deliver innovative, high-quality solutions that drive real results. By focusing on your vision, we ensure that each project we undertake is as meaningful to us as it is to you.",
+      "At Project WhiteCode, we pride ourselves on being a beacon of expertise in the software development landscape. Our team comprises seasoned professionals with diverse backgrounds and a wealth of experience across various domains. This collective knowledge allows us to deliver innovative solutions that not only meet but exceed our clients' expectations.",
   },
   {
     title: "Driven by Quality and Innovation",
     description:
-      "WhiteCode is built on a foundation of expertise and a dedication to quality. From custom software to full-scale digital solutions, we bring a high standard of technical knowledge and creativity to every project. Our team is focused on delivering solutions that not only meet your expectations but also push boundaries and deliver impactful results. With WhiteCode, you&apos;re partnering with a team that&apos;s passionate about helping your business succeed through technology and design that stands out.",
+      "At Project WhiteCode, our commitment to quality and innovation is the cornerstone of our success. We understand that in today’s fast-paced digital landscape, businesses require solutions that are not only effective but also cutting-edge. Our relentless pursuit of excellence ensures that we deliver products and services that empower our clients to thrive.",
   },
 ];
 
