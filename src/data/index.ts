@@ -89,12 +89,16 @@ export const footerSocials = [
 
 export const carouselProjects = [
   {
-    name: "KONE SiteFlow",
-    img: "/images/projects/siteflow-p-2000.png",
+    name: "Jawahir School",
+    img: "/images/projects/jawahir.png",
   },
   {
-    name: "The Guestbook",
-    img: "/images/projects/theguestbook-p-1080.png",
+    name: "AR Systems",
+    img: "/images/projects/ars.png",
+  },
+  {
+    name: "Arkken",
+    img: "/images/projects/arkken.png",
   },
 ];
 
@@ -207,7 +211,7 @@ export const projects = [
   {
     name: "AR Systems",
     img: "/images/projects/arsystems.org_.png",
-    link: "https://arsystems.org/",
+    link: "https://ars-landing-new.vercel.app/",
   },
   {
     name: "AFUbot",
