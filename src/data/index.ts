@@ -411,63 +411,15 @@ export const cardData = [
 export const careerData = [
   {
     id: 1,
-    role: "Backend Engineer",
-    location: "United States",
-    date: "2024-10-17",
+    role: "Junior Sales Executive (Technical)",
+    location: "Melbourne, Australia",
+    link: "https://drive.google.com/file/d/1eVGnyDVuekaGtFdloUmo_dUt7Hd62u0N/view?usp=sharing",
   },
   {
     id: 2,
-    role: "Backend Engineer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
-  },
-  {
-    id: 3,
-    role: "Executive Assistant and Office Manager",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-08-17",
-  },
-  {
-    id: 4,
-    role: "Hardware Lead",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-07-08",
-  },
-  {
-    id: 5,
-    role: "Reasearch Engineer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
-  },
-  {
-    id: 6,
-    role: "Robotics & AI Career Fair Applicants - Apply Here",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-09-27",
-  },
-  {
-    id: 7,
-    role: "Software Engineer - Embedded",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-08",
-  },
-  {
-    id: 8,
-    role: "Ui/Ux Designer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-07-17",
-  },
-  {
-    id: 9,
-    role: "Research Scientist",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-08-27",
-  },
-  {
-    id: 10,
-    role: "Backend Developer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
+    role: "Junior UI/UX Designer",
+    location: "Dhaka, Bangladesh",
+    link: "https://drive.google.com/file/d/1BugjJsLLVERHo5heoInlZXwnE0cqKu_n/view?usp=sharing",
   },
 ];
 
