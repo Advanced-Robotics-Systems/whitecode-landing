@@ -13,9 +13,9 @@ const AddressCard = ({
   return (
     <Card
       className="
-			bg-primary-20 max-w-80 py-8 px-5 xl:py-8 2xl:py-12 xl:px-5 2xl:px-7 text-black"
+			bg-primary-20 max-w-80 py-8 px-5 xl:py-8 2xl:py-12 xl:px-5 2xl:px-7 text-black flex flex-col min-h-80"
     >
-      <CardHeader className="flex flex-col items-start">
+      <CardHeader className="flex flex-col items-start flex-1">
         <h3 className="text-3xl xl:text-4xl font-medium ">{name}</h3>
         <h4 className="text-base">{hq}</h4>
       </CardHeader>

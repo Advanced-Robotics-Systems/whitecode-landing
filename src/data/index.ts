@@ -343,24 +343,17 @@ export const countries: any = {
 
 export const countryData = [
   {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
+    name: "Project WhiteCode KSA",
+    address:
+      "Laysen Valley,\n King Khalid Br Rd, Umm Al Hamam Al Gharbi, Riyadh 12329",
+  },
+  {
+    name: "Project WhiteCode BD",
+    address: "Oasis, \n House 47, Road 3A, Dhanmondi,\n Dhaka - 1205",
   },
   {
     name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
-  },
-  {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
-  },
-  {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
+    address: "Darwin \n (Coming Soon)",
   },
 ];
 

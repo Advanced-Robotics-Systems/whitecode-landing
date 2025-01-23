@@ -8,13 +8,12 @@ const Addresses = () => {
         Where to find Us
       </p>
       <div className="flex justify-center flex-wrap">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-7 md:gap-12 xl:gap-14 2xl:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-7 md:gap-12 xl:gap-14 2xl:gap-16">
           {countryData.map((country, index) => (
             <AddressCard
               key={index}
               name={country.name}
               address={country.address}
-              hq={country.hq}
             />
           ))}
         </div>
