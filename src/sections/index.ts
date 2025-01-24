@@ -55,14 +55,8 @@ import DiscoverCareer from "./career/discover-career";
 import PolicyAustrailia from "./about/policy/policy-austrailia";
 
 // Blogs Sections
-import BlogsHero from "./blogs/blogs-hero";
-import AllBlogs from "./blogs/all-blogs";
 
 // single blog sections
-import BlogHero from "./single-blog/blog-hero";
-import BlogIntro from "./single-blog/blog-intro";
-import BlogDetails from "./single-blog/blog-details";
-import OtherBlogs from "./single-blog/other-blogs";
 
 export {
   Header,
@@ -102,10 +96,4 @@ export {
   Reviews,
   ChooseUs,
   AboutHero2,
-  BlogsHero,
-  AllBlogs,
-  BlogHero,
-  BlogIntro,
-  BlogDetails,
-  OtherBlogs,
 };

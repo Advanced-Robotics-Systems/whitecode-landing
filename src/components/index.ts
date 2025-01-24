@@ -17,7 +17,6 @@ import ProcessSwiper from "./dev-process-carousel/process-swiper";
 import ExpertiseCard from "./expertise-card/expertise-card";
 import Addresses from "./contact-address/addresses";
 import ChooseUsCarousel from "./about-choos-us-carousel/why-choose-us-carousel";
-import BlogCard from "./blog-card/blog-card";
 
 export {
   ItemCard,
@@ -38,5 +37,4 @@ export {
   ExpertiseCard,
   Addresses,
   ChooseUsCarousel,
-  BlogCard,
 };
