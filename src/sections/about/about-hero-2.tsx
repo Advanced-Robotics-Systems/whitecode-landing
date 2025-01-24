@@ -1,7 +1,7 @@
 "use client";
-import { Image } from "@nextui-org/react";
+
 import { motion } from "framer-motion";
-import heroImage from "@/../public/about-hero.jpeg";
+import heroImage from "@/../public/about-hero.jpg";
 
 const AboutHero2 = () => {
   return (
@@ -14,7 +14,7 @@ const AboutHero2 = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className=" bg-[#1E183EBF] flex flex-col justify-center items-center h-full padding-responsive">
+      {/* <div className=" bg-dark-indigo-70 flex flex-col justify-center items-center h-full padding-responsive">
         <motion.article
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,7 +32,7 @@ const AboutHero2 = () => {
             custom-tailored solutions.
           </p>
         </motion.article>
-      </div>
+      </div> */}
     </section>
   );
 };

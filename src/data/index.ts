@@ -89,12 +89,16 @@ export const footerSocials = [
 
 export const carouselProjects = [
   {
-    name: "KONE SiteFlow",
-    img: "/images/projects/siteflow-p-2000.png",
+    name: "Jawahir School",
+    img: "/images/projects/jawahir.png",
   },
   {
-    name: "The Guestbook",
-    img: "/images/projects/theguestbook-p-1080.png",
+    name: "AR Systems",
+    img: "/images/projects/ars.png",
+  },
+  {
+    name: "Arkken",
+    img: "/images/projects/arkken.png",
   },
 ];
 
@@ -207,7 +211,7 @@ export const projects = [
   {
     name: "AR Systems",
     img: "/images/projects/arsystems.org_.png",
-    link: "https://arsystems.org/",
+    link: "https://ars-landing-new.vercel.app/",
   },
   {
     name: "AFUbot",
@@ -330,7 +334,6 @@ export const countries: any = {
     address: "576 Flinders Lane Melbourne VIC 3000",
     hq: "Global HQ",
   },
-  Finland: { name: "Finland", address: "Helsinki, Finland 00100" },
   Bangladesh: {
     name: "Bangladesh",
     address: "Oasis, House 47, Road 3A, Dhanmondi, Dhaka - 1205",
@@ -343,24 +346,17 @@ export const countries: any = {
 
 export const countryData = [
   {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
+    name: "Project WhiteCode KSA",
+    address:
+      "Laysen Valley,\n King Khalid Br Rd, Umm Al Hamam Al Gharbi, Riyadh 12329",
+  },
+  {
+    name: "Project WhiteCode BD",
+    address: "Oasis, \n House 47, Road 3A, Dhanmondi,\n Dhaka - 1205",
   },
   {
     name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
-  },
-  {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
-  },
-  {
-    name: "WhiteCode AUS",
-    address: "909 Third Avenue \n New York, New York 10022 \n United State",
-    hq: "Aus Headquaters",
+    address: "Darwin \n (Coming Soon)",
   },
 ];
 
@@ -415,63 +411,15 @@ export const cardData = [
 export const careerData = [
   {
     id: 1,
-    role: "Backend Engineer",
-    location: "United States",
-    date: "2024-10-17",
+    role: "Junior Sales Executive (Technical)",
+    location: "Melbourne, Australia",
+    link: "https://drive.google.com/file/d/1eVGnyDVuekaGtFdloUmo_dUt7Hd62u0N/view?usp=sharing",
   },
   {
     id: 2,
-    role: "Backend Engineer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
-  },
-  {
-    id: 3,
-    role: "Executive Assistant and Office Manager",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-08-17",
-  },
-  {
-    id: 4,
-    role: "Hardware Lead",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-07-08",
-  },
-  {
-    id: 5,
-    role: "Reasearch Engineer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
-  },
-  {
-    id: 6,
-    role: "Robotics & AI Career Fair Applicants - Apply Here",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-09-27",
-  },
-  {
-    id: 7,
-    role: "Software Engineer - Embedded",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-08",
-  },
-  {
-    id: 8,
-    role: "Ui/Ux Designer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-07-17",
-  },
-  {
-    id: 9,
-    role: "Research Scientist",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-08-27",
-  },
-  {
-    id: 10,
-    role: "Backend Developer",
-    location: "United States, Massachusetts, Boston",
-    date: "2024-10-17",
+    role: "Junior UI/UX Designer",
+    location: "Dhaka, Bangladesh",
+    link: "https://drive.google.com/file/d/1BugjJsLLVERHo5heoInlZXwnE0cqKu_n/view?usp=sharing",
   },
 ];
 
@@ -679,7 +627,7 @@ export const clientsData = [
     img: "/images/clients/kone.png",
   },
   {
-    name: "The Guestbook",
+    name: "The Guest Book",
     img: "/images/clients/guest-book.png",
   },
   {
@@ -809,7 +757,7 @@ export const servicesData = [
     ],
   },
   {
-    title: "Desktop Application",
+    title: "Desktop Application Team",
     link: "services/desktop-app",
     description:
       "Our team develops powerful desktop applications that are optimized for performance and efficiency. Whether for initial use or distribution, our solutions help automate processes, improve productivity, and offer a smooth user experience.",
@@ -934,39 +882,46 @@ export const servicesData = [
 // Our reviews data
 export const reviewsData = [
   {
-    name: "Alex Mulder",
-    designation: "Founder USG People",
-    img: "/alex.png",
+    name: "Harmonya",
+    img: "/images/clients/harmonya.png",
     review:
-      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+      "We required a digital presence that accurately represented our goal as a company working to transform AI-driven retail intelligence. That is just what Project WhiteCode provided: a highly practical, aesthetically pleasing, and user-friendly platform that increases user engagement. Throughout the entire process, their meticulousness and dedication to quality were apparent. We're blown away!",
   },
   {
-    name: "Alex Mulder",
-    designation: "Founder USG People",
-    img: "/alex.png",
+    name: "Arkken",
+    img: "/images/clients/arkken.png",
     review:
-      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+      "Project WhiteCode's partnership changed everything for us. Our design aesthetic was Scandinavian, and we needed a website that was sleek, contemporary, and incredibly responsive. The team surpassed our expectations by creating a visually appealing and intuitive UI that appeals to our target population. The difference was entirely due to their professionalism and inventiveness",
   },
   {
-    name: "Alex Mulder",
-    designation: "Founder USG People",
-    img: "/alex.png",
+    name: "The Guest Book",
+    img: "/images/clients/guest-book.png",
     review:
-      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+      "We wanted to develop a smooth and entertaining reward system for passengers, and Project WhiteCode enabled us to realize that goal. The website they created is very user-friendly in addition to being visually appealing. Our clients' interactions with our services have been greatly impacted by their proficiency in branding and UI/UX. It makes us very happy.",
   },
   {
-    name: "Alex Mulder",
-    designation: "Founder USG People",
-    img: "/alex.png",
+    name: "WorkHero",
+    img: "/images/clients/work-hero.png",
     review:
-      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+      "We needed a website that showcased our automation solutions in a compelling and user-friendly way, and Project WhiteCode nailed it. The clean design, smooth animations, and strategic layout made our platform more engaging and accessible to clients. The team was incredibly responsive and professional throughout the process. Highly recommended!",
   },
   {
-    name: "Alex Mulder",
-    designation: "Founder USG People",
-    img: "/alex.png",
+    name: "Fruitful",
+    img: "/images/clients/fruitful.png",
     review:
-      "“Throughout my career as a CEO, entrepreneur and investor, I have rarely worked with anyone who has impressed me greatly as an entrepreneur, negotiator and strategist. Except Chris Zadeh, who has proven to be very successful an capable in all these areas.Moreover, he keeps his word and is 100% reliable.”",
+      "Project WhiteCode took our concept and turned it into a digital experience that embodies the environmental commitment of our brand. Our consumers can easily connect with us because of the design's current, fresh, and very functional features. The procedure went smoothly because of their knowledge and commitment. 'A wonderful group to collaborate with.'",
+  },
+  {
+    name: "Seven Stars",
+    img: "/images/clients/seven-stars.png",
+    review:
+      "As a company in the gaming industry, we needed a website that was dynamic, interactive, and visually engaging. Project WhiteCode delivered exactly that! From the immersive design to the seamless navigation, everything was crafted with precision. They truly understand how to blend aesthetics with functionality. We're thrilled with the results!",
+  },
+  {
+    name: "JAREC",
+    img: "/images/clients/jarec.png",
+    review:
+      "We recently partnered with Project WhiteCode for our website development, and we're thrilled with the results. Their team showcased exceptional expertise, delivering a site that excels in design, usability, and performance. From start to finish, the process was seamless and professional. We're excited to collaborate with them on future projects!",
   },
 ];
 
@@ -1015,17 +970,17 @@ export const servicesDeliverData = [
   {
     title: "Our Promise: Putting Client Success First",
     description:
-      "At WhiteCode, our client&apos;s satisfaction is at the core of everything we do. With over 250 five-star reviews and a reputation built on delivering results, we&apos;re committed to ensuring each project meets and exceeds expectations. Every client works directly with a dedicated account manager, ensuring open communication and a seamless experience from start to finish. We're here to make sure you get the outcomes that matter to your business.",
+      "At Project WhiteCode, our commitment to client success is at the heart of everything we do. We understand that our clients are not just looking for a service provider; they seek a trusted partner who is invested in their growth and success. This promise drives us to deliver exceptional results tailored to each client's unique needs and objectives.",
   },
   {
     title: "Expertise You Can Rely On",
     description:
-      "At WhiteCode, we approach every project with a deep understanding of industry challenges and a dedication to personalized solutions. Our team of skilled developers, designers, and strategists takes the time to understand your brand and its unique needs. This thoughtful approach allows us to deliver innovative, high-quality solutions that drive real results. By focusing on your vision, we ensure that each project we undertake is as meaningful to us as it is to you.",
+      "At Project WhiteCode, we pride ourselves on being a beacon of expertise in the software development landscape. Our team comprises seasoned professionals with diverse backgrounds and a wealth of experience across various domains. This collective knowledge allows us to deliver innovative solutions that not only meet but exceed our clients' expectations.",
   },
   {
     title: "Driven by Quality and Innovation",
     description:
-      "WhiteCode is built on a foundation of expertise and a dedication to quality. From custom software to full-scale digital solutions, we bring a high standard of technical knowledge and creativity to every project. Our team is focused on delivering solutions that not only meet your expectations but also push boundaries and deliver impactful results. With WhiteCode, you&apos;re partnering with a team that&apos;s passionate about helping your business succeed through technology and design that stands out.",
+      "At Project WhiteCode, our commitment to quality and innovation is the cornerstone of our success. We understand that in today’s fast-paced digital landscape, businesses require solutions that are not only effective but also cutting-edge. Our relentless pursuit of excellence ensures that we deliver products and services that empower our clients to thrive.",
   },
 ];
 

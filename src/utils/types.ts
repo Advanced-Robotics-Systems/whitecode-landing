@@ -19,3 +19,12 @@ export interface PrivacyPolicyData {
   title: string;
   sections: PrivacyPolicySection[];
 }
+
+export interface Blog {
+  id: string;
+  title: string;
+}
+
+export interface BlogListProps {
+  blogs: Blog[];
+}

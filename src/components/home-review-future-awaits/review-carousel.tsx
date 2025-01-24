@@ -60,6 +60,11 @@ const ReviewCarousel = () => {
           },
         }}
         navigation
+        loop={true}
+        autoplay={{
+          delay: 2000,
+        }}
+        speed={1000}
         className="mySwiper"
       >
         {reviewsData.map((review, index) => (
@@ -72,7 +77,6 @@ const ReviewCarousel = () => {
                 <div className="flex gap-3 lg:gap-5 items-center font-medium">
                   <Avatar src={review?.img} />
                   <p>{review?.name}</p>
-                  <p className="">{review?.designation}</p>
                 </div>
               </div>
             </div>

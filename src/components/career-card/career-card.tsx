@@ -26,7 +26,6 @@ const CareerCard = ({
         <h3 className=" text-xl lg:text-2xl font-inter text-white">{role}</h3>
         <div className="space-y-1 text-white-70 text-sm lg:text-base font-light font-sora">
           <p> Location: {location}</p>
-          <p>Creation Date: {date}</p>
         </div>
       </CardBody>
     </Card>

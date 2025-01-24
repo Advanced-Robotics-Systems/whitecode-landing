@@ -43,6 +43,7 @@ const config: Config = {
         monoton: ["Monoton", "sans-serif"],
         sora: ["Sora", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        "noto-sans": ["Noto Sans", "sans-serif"],
       },
       colors: {
         primary: "#3F9EB7",
@@ -53,6 +54,7 @@ const config: Config = {
         "dark-gray": "#333333",
         "sky-15": "#3F9EB726",
         "dark-indigo": "#1E183E",
+        "dark-indigo-70": "#1E183EB3",
         "deep-indigo": "#1D173D",
         "light-indigo": "#3A2F79",
         "light-mint-green": "#b2fab4",
@@ -60,6 +62,7 @@ const config: Config = {
         "light-peach": "#ffccbc",
         "white-70": "#FFFFFFB3",
         "off-white": "#FCFCFC",
+        "ice-blue": "#EDF9FC",
       },
       backgroundImage: {
         default: "url(/bg-default.png)",

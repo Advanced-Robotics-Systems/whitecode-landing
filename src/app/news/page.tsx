@@ -4,14 +4,14 @@ import { AllNews, Chat, NewsHero } from "@/sections";
 import React from "react";
 
 const News = () => {
-	return (
-		<div>
-			<NewsHero />
-			<ImageCarousel projects={carouselNews} />
-			<AllNews />
-			<Chat />
-		</div>
-	);
+  return (
+    <div>
+      <NewsHero />
+      <ImageCarousel projects={carouselNews} />
+      <AllNews />
+      <Chat />
+    </div>
+  );
 };
 
 export default News;
