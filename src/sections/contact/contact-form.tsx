@@ -9,6 +9,7 @@ import { Addresses } from "@/components";
 import { easeInOut, motion } from "framer-motion";
 
 import { footerSocials } from "@/data";
+import { ICONS } from "@/utils/icons";
 
 const ContactForm = () => {
   const [isVerified, setIsVerified] = useState(false);
@@ -196,6 +197,39 @@ const ContactForm = () => {
         >
           <Addresses />
         </motion.div>
+        <div
+          className="pt-10 lg:pt-14 xl:pt-20 flex flex-col lg:flex-row gap-5
+         md:gap-10 lg:gap-10 xl:gap-20 items-start"
+        >
+          <div className="flex gap-2 md:gap-3 items-center">
+            <h1 className="text-3xl md:text-4xl text-primary">{ICONS.email}</h1>
+            <p className="text-xl md:text-2xl">inquiries@prowhite.com</p>
+          </div>
+          <div className="flex gap-2 md:gap-3 items-start">
+            <h1 className="text-2xl md:text-3xl text-primary">
+              {" "}
+              {ICONS.phone}
+            </h1>
+            <div className="text-lg md:text-2xl flex flex-col gap-2">
+              <p>
+                {" "}
+                +966 503 124449{"   "}
+                <span className="text-primary font-bold">(</span> Saudi Arabia
+                <span className="text-primary font-bold">)</span>
+              </p>
+              <p>
+                +880 1622 257180{" "}
+                <span className="text-primary font-bold">(</span> Bangladesh
+                <span className="text-primary font-bold">)</span>
+              </p>
+              <p>
+                +614 062 92098 <span className="text-primary font-bold">(</span>
+                Australia
+                <span className="text-primary font-bold">)</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
       {/* Social Media Icons Below the Right Column */}
       <motion.aside
