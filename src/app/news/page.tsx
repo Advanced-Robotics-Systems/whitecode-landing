@@ -1,13 +1,6 @@
 import { ImageCarousel } from "@/components";
 import { carouselNews } from "@/data";
-import {
-  AllBlogs,
-  AllNews,
-  BlogsHero,
-  CareerChat,
-  Chat,
-  NewsHero,
-} from "@/sections";
+import { AllNews, Chat, NewsHero } from "@/sections";
 import React from "react";
 
 const News = () => {
