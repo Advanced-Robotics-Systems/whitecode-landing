@@ -1,5 +1,6 @@
 import { ContactChat, ContactForm, Map, Reviews } from "@/sections";
 import { Metadata } from "next";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://prowhitecode.com"),
@@ -44,6 +45,7 @@ export const metadata: Metadata = {
 };
 
 const Contact = () => {
+  redirect("/");
   return (
     <div>
       <ContactChat />
